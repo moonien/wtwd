@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Space+Mono:400i');
+@import url('https://solrainha.github.io/saturnicons/saturnicons.css');
+
+.yuenscore { width:380px;padding:30px 40px;box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.5),inset 20px 0px 0px rgba(255,255,255,0.5),inset -20px 0px 0px rgba(255,255,255,0.5),0px 0px 10px -5px #eed8ac;box-sizing:border-box;margin:30px auto;font:13px karla;line-height:18px;text-align:justify;background:#fef8e2;color:#665b46;border-radius:20px; }
+
+.yuenscore u { text-decoration:none;color:#3b271e;box-shadow:inset 0px -1px 0px #fef8e2,inset 0px -6px 0px #e38951;font-size:14px; }
+.yuenscore b { color:#cf7339;font-size:15px;letter-spacing:1px;line-height:17px; }
+.yuenscore i { font-family:space mono;color:#5b1b02; }
+
+.yuenscore hs1 { display:block;color:#5b1b02;background:#d78b33;box-shadow:0px 0px 6px -3px #d78b33;font:700 17px karla;width:max-content;text-transform:uppercase;padding:5px 20px;border-radius:10px;transform:rotate(-10deg);transform-origin:50% 50%;margin-top:-40px;margin-left:-60px;margin-bottom:10px; }
+.yuenscore hs2 { display:block;text-transform:uppercase;font-weight:bolder;margin:10px 0px; }
+.yuenscore hs2 u { font-size:17px;box-shadow:inset 0px -1px 0px #fef8e2,inset 0px -9px 0px #e38951;padding:0px 2px; }
+
+.yuenscore .hs-list { display:flex;flex-flow:row wrap;justify-content:space-evenly;width:100%;padding:0px;box-sizing:border-box; }
+.yuenscore .hs-list div { margin:15px;display:flex;justify-content:center;align-items:center;flex-flow:row wrap; }
+.yuenscore .hs-list div img { width:120px;height:120px;object-fit:cover;border-radius:24% 96% 64% 36% / 50% 32% 80% 50%;position:relative;z-index:3; }
+.yuenscore .hs-list div:after { position:relative;margin-top:60px;margin-left:-40px;z-index:5;content:var(--acnh);font:24px saturnicons;line-height:10px;width:40px;height:40px;display:flex;justify-content:center;align-items:center;color:#fef8e2;background:#d78b33;border-radius:50px;box-shadow:0px 0px 5px -2px #5b1b02; }
+.yuenscore .hs-list div span { position:absolute;background:#ddc1a0;z-index:7;color:#361e0e;box-shadow:0px 0px 8px -6px #361e0e;border-radius:10px;padding:5px 10px;transition:0.8s;transform:scale(0);opacity:0; }
+.yuenscore .hs-list div:hover span { transform:scale(0.85);opacity:1; }
+
+.yuenscore .hs-list div[class^="hs-o-"] img { object-fit:none;background:rgba(255,255,255,0.9); }
+
+.yuenscore .hs-owner { --acnh:"\e110"; }
+.yuenscore .hs-part { --acnh:"\e2b5"; }
+.yuenscore .hs-o-drink { --acnh:"\e072"; }
+.yuenscore .hs-o-sweet { --acnh:"\e0cc"; }
+.yuenscore .hs-o-small { --acnh:"\e325"; }
+.yuenscore .hs-o-entry { --acnh:"\e195"; }
+
+
+.yuenscore.hs-img { display:flex;flex-flow:row wrap;justify-content:space-between;font-size:0px; }
+.yuenscore.hs-img img { margin:5px;border-radius:15px;object-fit:cover; }
+.yuenscore .hs-one { width:calc(100% - 10px); }
+.yuenscore .hs-two { width:calc(50% - 10px); }
