@@ -52,6 +52,7 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .lunawtwd-cont i { color:var(--accent); }
 .lunawtwd-cont b { color:var(--accent);font-size:13px;line-height:18px; }
 .lunawtwd-ooc { border-top:1px solid rgba(var(--rgb), 0.7);margin:25px;margin-top:5px;padding:15px 25px;color:#777; }
+.lunawtwd-lyrics { border-top:1px solid #ddd;background:var(--accent);padding:10px;text-align:center;text-transform:uppercase;font-weight:bold;color:#fafafa;font:12px ubuntu mono;line-height:12px; }
 
 
 
