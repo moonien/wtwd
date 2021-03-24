@@ -109,7 +109,7 @@ width:400px;margin:30px auto;background:#fafafa;padding:40px;padding-bottom:25px
 
 .yuentracker03-2 { --ew:var(--edelweiss);--bgimg:url(https://i64.servimg.com/u/f64/19/28/65/32/hidden10.jpg);--tbg:var(--ew) var(--bgimg) 82% 50% fixed;
 --daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex);--edelweiss:var(--edelHex);
-width:500px;margin:10px auto;background:#fafafa;padding:15px;box-sizing:border-box;font:300 13px josefin sans;line-height:18px;border:1px solid #ddd;text-align:justify; }
+width:500px;margin:10px auto;background:#fafafa;padding:15px;box-sizing:border-box;font:300 13px var(--mainFont);line-height:18px;border:1px solid #ddd;text-align:justify; }
 
 .yuentracker03-2-box { display:flex;flex-flow:row wrap; }
 .yuentracker03-2-cont { order:2;width:100%; }
@@ -118,7 +118,7 @@ width:500px;margin:10px auto;background:#fafafa;padding:15px;box-sizing:border-b
 .yuentracker03-2-cont span { display:flex;width:100%;box-sizing:border-box; }
 .yuentracker03-2-cont font { background:var(--tbg);background-blend-mode:multiply;padding-left:30px;padding-top:10px;line-height:70px;height:50px;align-items:flex-start;font:65px chrono;color:white;text-shadow:1px 1px 0px rgba(0,0,0,0.4);margin-bottom:-15px;margin-top:15px; }
 .yuentracker03-2-cont font:first-child { margin-top:0px; }
-.yuentracker03-2-cont span { align-items:flex-end;justify-content:flex-end;background:var(--ew);text-transform:uppercase;font:14px josefin sans;margin:15px 0px;padding:12px; }
+.yuentracker03-2-cont span { align-items:flex-end;justify-content:flex-end;background:var(--ew);text-transform:uppercase;font:14px var(--mainFont);margin:15px 0px;padding:12px; }
 .yuentracker03-2-cont span b,
 .yuentracker03-2-cont yt a { width:auto;height:auto;line-height:18px;padding:0px 5px;margin:0px;border-radius:4px;padding-top:3px;background:white;color:var(--ew); }
 .yuentracker03-2-cont font:after { content:"."; }
@@ -154,7 +154,7 @@ width:500px;margin:10px auto;background:#fafafa;padding:15px;box-sizing:border-b
 .yuentracker03-2-top naps:before { height:90px;width:90px;display:flex;align-items:center;box-sizing:border-box;border-radius:100px; }
 .yuentracker03-2-top naps { width:96px;height:96px;justify-content:flex-start;background:var(--tbg);background-blend-mode:multiply;position:absolute;border:3px solid white;z-index:5; }
 .yuentracker03-2-top naps i { padding-top:7px;padding-right:10px;position:relative;z-index:10;justify-content:center;font:80px chrono;line-height:90px;color:white;overflow:hidden;letter-spacing:-10px; }
-.yuentracker03-2-top naps font { position:absolute;background:var(--ew);font:700 14px josefin sans;line-height:20px;padding:0px 5px;padding-top:2px;border-radius:3px;margin-left:45px;text-transform:uppercase;z-index:10;border:1px solid white; }
+.yuentracker03-2-top naps font { position:absolute;background:var(--ew);font:700 14px var(--mainFont);line-height:20px;padding:0px 5px;padding-top:2px;border-radius:3px;margin-left:45px;text-transform:uppercase;z-index:10;border:1px solid white; }
 
 .yuentracker03-2-top .ytd-2-image { width:100%;border-bottom:5px solid white; }
 .yuentracker03-2-top .ytd-2-image span { display:flex;align-items:flex-end;line-height:0px;height:37px;background:var(--tbg);background-blend-mode:multiply;font:72px chrono;padding-left:20px; }
