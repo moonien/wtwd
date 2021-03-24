@@ -10,7 +10,7 @@ width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubi
 .yuendev03-cont li { min-height:36px;padding:0px;margin:0px;margin-top:15px;margin-left:30px;list-style:none;clear:both; }
 
 .yuendev03-cont li:before { font:20px honeybee;content:"\ebef";color:white;text-shadow:1px 1px 0px rgba(0,0,0,0.2);margin-right:10px;border-radius:5px;background:var(--ew);float:left;display:flex;width:32px;height:32px;align-items:center;justify-content:center;margin:2px 0px;margin-left:-45px;position:sticky;position:-webkit-sticky;top:80px; }
-.yuendev03-cont li.cowa { --ew:#DB4455; }
+.yuendev03-cont .cowa { --ew:#DB4455; }
 .yuendev03-cont li.cowa:before { content:"\ea13"; }
 
 .yuendev03-cont i,
