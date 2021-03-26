@@ -201,21 +201,21 @@ height: 115px;}
 .apprelations u { border-bottom: dotted 1px var(--accent); }
 .finalpain h1 { color: var(--accent); text-transform: uppercase; font-size: 18px; border-bottom: solid 1px #5b5b5b; letter-spacing: 0.5px; font-family: poppins; margin-bottom: 2px; }
 
-.killing { border-radius: 15px; width: 460px; height-min: 60px; padding: 25px; border: 1px #5b5b5b solid; font-family: poppins; font-style: italic; color: #5b5b5b; font-size: 14px; text-align: center; }
+.killing { background: #fafafa; border-radius: 15px; width: 460px; height-min: 60px; padding: 25px; border: 1px #5b5b5b solid; font-family: poppins; font-style: italic; color: #5b5b5b; font-size: 14px; text-align: center; }
 .killing img{ width: 50px; height: 50px; object-fit: cover; }
 
-.words { border-radius: 15px; width: 180px; padding: 15px; border: 1px #5b5b5b solid; text-align: justify; display: inline-block; margin-top: 10px; height: 210px; font-family: lato; margin-bottom: 10px;}
-.pain { border-radius: 15px; width: 260px; padding: 15px; border: 1px #5b5b5b solid; text-align: justify; display: inline-block; margin-left: 5px; margin-top: 10px; height: 210px; vertical-align: top; font-family: lato; margin-bottom: 10px; }
+.words { background: #fafafa; border-radius: 15px; width: 180px; padding: 15px; border: 1px #5b5b5b solid; text-align: justify; display: inline-block; margin-top: 10px; height: 210px; font-family: lato; margin-bottom: 10px;}
+.pain { background: #fafafa; border-radius: 15px; width: 260px; padding: 15px; border: 1px #5b5b5b solid; text-align: justify; display: inline-block; margin-left: 5px; margin-top: 10px; height: 210px; vertical-align: top; font-family: lato; margin-bottom: 10px; }
 .box1 { height: 205px; overflow: auto; padding-right: 5px; line-height: 16px;}
 
 .apppic {margin-top: 10px; width: 250px; height: 100px; border-radius: 15px; overflow: hidden;}
 .apppic img{width:250px;}
-.appspecies {width: 220px; padding: 15px; height: 200px; font-family: lato; margin-top: 10px; font-size: 11px; border-radius: 15px; border: solid 1px #5b5b5b; color: #5b5b5b; }
+.appspecies {background: #fafafa; width: 220px; padding: 15px; height: 200px; font-family: lato; margin-top: 10px; font-size: 11px; border-radius: 15px; border: solid 1px #5b5b5b; color: #5b5b5b; }
 .appspeciestext { height: 190px; overflow: auto; text-align: justify; padding-right: 5px; line-height: 16px;}
-.apprelations {width: 225px; height: 205px; padding: 15px; font-family: lato; border-radius: 15px; border: solid 1px #5b5b5b;margin-top: 10px; margin-left: 5px; color: #5b5b5b; }
+.apprelations {background: #fafafa; width: 225px; height: 205px; padding: 15px; font-family: lato; border-radius: 15px; border: solid 1px #5b5b5b;margin-top: 10px; margin-left: 5px; color: #5b5b5b; }
 .apprelationstext { height: 200px; overflow: auto; text-align: justify; padding-right: 5px; line-height: 16px;}
 
-.finalpain {width: 225px; height: 60px; padding: 15px; font-family: lato; border-radius: 15px; border: solid 1px #5b5b5b;margin-top: 10px; margin-left: 5px; text-align: center;}
+.finalpain {background: #fafafa; width: 225px; height: 60px; padding: 15px; font-family: lato; border-radius: 15px; border: solid 1px #5b5b5b;margin-top: 10px; margin-left: 5px; text-align: center;}
 
 
 /****************************************
