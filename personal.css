@@ -31,8 +31,9 @@ width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubi
 .yuendev03 center img { width:100%;border-radius:7px;margin:10px 0px; }
 .yuendev03-lyrics { margin:0px -10px; }
 .yuendev03-lyrics span { font:500 18px rubik;color:var(--ew);text-transform:uppercase; }
-.yuendev03-lyrics font { text-align:right;text-transform:uppercase;font-size:11px;display:flex;flex-flow:row nowrap;align-items:center;margin-top:20px; }
-.yuendev03-lyrics font:before { content:"";flex-grow:1;border-top:2px solid #bbb;margin-right:10px; }
+.yuendev03-lyrics font { --border:#333;text-align:right;text-transform:uppercase;font-size:11px;display:flex;flex-flow:row nowrap;align-items:center;margin-top:20px; }
+.yuendev03-lyrics font:before { content:"";flex-grow:1;border-top:2px solid var(--border);opacity:0.5;margin-right:10px; }
+.yuendev03-lyrics font:first-child { margin-top:0px;--border:var(--ew);font-size:12px;font-weight:500;color:var(--ew); }
 
 
 
