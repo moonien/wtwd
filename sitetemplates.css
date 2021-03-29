@@ -426,9 +426,9 @@ Thread Templates
 .post2words i { color: var(--accent); border-bottom: dotted 1px #5b5b5b; }
 .post2words u { border-bottom: dotted 1px var(--accent); }
 
-.post2box { width: 350px; padding: 25px; border-radius: 25px; border: solid 1px #5b5b5b; margin-bottom: 10px; text-align: right; }
+.post2box { background:#fafafa;width: 350px; padding: 25px; border-radius: 25px; border: solid 1px #5b5b5b; margin-bottom: 10px; text-align: right; }
 .post2box h1 { font-family: balsamiq sans; font-weight: bold; font-size: 16px; text-transform: uppercase; text-align: right; letter-spacing: 0.75px; }
-.post2words { width: 350px; padding: 25px; border-radius: 25px; border: solid 1px #5b5b5b; font-family: lato; text-align: justify; color: #5b5b5b; line-spacing: 102%; font-size: 11px; }
+.post2words { background:#fafafa;width: 350px; padding: 25px; border-radius: 25px; border: solid 1px #5b5b5b; font-family: lato; text-align: justify; color: #5b5b5b; line-spacing: 102%; font-size: 11px; }
 
 .whale { width: 400px; max-height: 200px; overflow: hidden; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom: solid 15px #5b5b5b;  }
 .there { width: 348px; padding: 25px; background-color: #fff; border-right: solid 1px #5b5b5b; border-left: solid 1px #5b5b5b; border-bottom: solid 1px #5b5b5b; font-family: lato; font-size: 11px; text-align: justify; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; }
