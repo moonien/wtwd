@@ -2,6 +2,10 @@
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
 @import url('https://solrainha.github.io/honeybee/honeybee.css');
 
+#mobile .yuendev03,
+#mobile .yuentracker03,
+#mobile .yuentracker03-2 { --accent:var(--ew)!important; }
+
 .yuendev03 { --ew:var(--edelHex);--bgimg:url(https://i64.servimg.com/u/f64/19/28/65/32/hidden10.jpg);
 width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubik;line-height:18px;box-shadow:4px 4px 0px var(--accent);color:#111;text-align:justify; }
 
