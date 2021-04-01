@@ -1,3 +1,7 @@
+.spostb { background:linear-gradient(160deg, white 0%, var(--accent) 210%); width: 275px;  overflow: auto; padding: 25px; text-align: justify; font-size: 13px; font-family: trebuchet ms; box-shadow: inset 2px 2px 25px var(--accent); border-radius: 15px; border-right: solid 2px #2b2d2f; border-bottom: solid 2px #2b2d2f;   }
+.sposta { background: #fff; width: 275px;  overflow: auto; padding: 25px; text-align: justify; font-size: 13px; font-family: trebuchet ms; box-shadow: inset 2px 2px 25px var(--accent); border-radius: 15px; border-right: solid 2px #2b2d2f; border-bottom: solid 2px #2b2d2f;  }
+
+
 /****************************************
 Face Claims
 *****************************************/
