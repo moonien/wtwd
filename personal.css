@@ -2,11 +2,23 @@
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
 @import url('https://solrainha.github.io/honeybee/honeybee.css');
 
-#mobile .yuendev03,
-#mobile .yuentracker03,
-#mobile .yuentracker03-2 { --accent:var(--ew)!important; }
+#mobile #azalea .yuendev03,
+#mobile #azalea .yuentracker03,
+#mobile #azalea .yuentracker03-2 { --accent:var(--azaHex)!important; }
 
-.yuendev03 { --ew:var(--edelHex);--bgimg:url(https://i64.servimg.com/u/f64/19/28/65/32/hidden10.jpg);
+#mobile #carnation .yuendev03,
+#mobile #carnation .yuentracker03,
+#mobile #carnation .yuentracker03-2 { --accent:var(--carnaHex)!important; }
+
+#mobile #daisy .yuendev03,
+#mobile #daisy .yuentracker03,
+#mobile #daisy .yuentracker03-2 { --accent:var(--daisyHex)!important; }
+
+#mobile #edelweiss .yuendev03,
+#mobile #edelweiss .yuentracker03,
+#mobile #edelweiss .yuentracker03-2 { --accent:var(--edelHex)!important; }
+
+.yuendev03 { --bgimg:url(https://i64.servimg.com/u/f64/19/28/65/32/hidden10.jpg);
 width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubik;line-height:18px;box-shadow:4px 4px 0px var(--accent);color:#111;text-align:justify; }
 
 .yuendev03-head { text-transform:uppercase;font:700 40px rubik;line-height:32px;padding-top:10px;text-align:center;background:var(--accent);color:transparent;background:linear-gradient(30deg, rgba(255,255,255,0) 10%, rgba(255,255,255,0.7) 70%),var(--accent);background-clip:text;-webkit-background-clip:text;margin:0px -20px;margin-bottom:30px;overflow:visible; }
