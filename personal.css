@@ -62,7 +62,7 @@ width:420px;margin:30px auto;background:#fafafa;padding:40px;padding-bottom:25px
 .yuentracker03-cont yr:last-child { flex-grow:1;text-align:right; }
 
 .yuentracker03-top { margin-bottom:20px;width:100%; }
-.yuentracker03-top naps { background:var(--accent) var(--bgimg) 75% 50% fixed;background-blend-mode:multiply;overflow:hidden;display:block; }
+.yuentracker03-top naps { margin-bottom:1px;background:var(--accent) var(--bgimg) 75% 50% fixed;background-blend-mode:multiply;overflow:hidden;display:block; }
 .yuentracker03-top naps i { width:100%;height:70px;display:flex;font:italic 700 35px rubik;line-height:20px;color:#f2f2f2;text-shadow:2px 2px 0px rgba(0,0,0,0.2);text-transform:uppercase;align-items:flex-end;position:relative;z-index:10; }
 
 
