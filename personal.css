@@ -42,7 +42,7 @@ width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubi
 
 
 .yuentracker03 { --bgimg:url(https://i64.servimg.com/u/f64/19/28/65/32/hidden10.jpg);
-width:420px;margin:30px auto;background:#fafafa;padding:40px;padding-bottom:25px;font:13px rubik;line-height:18px;box-shadow:4px 4px 0px var(--accent);text-align:justify;color:#333; }
+width:420px;margin:30px auto;background:#fafafa;padding:35px;padding-bottom:25px;font:13px rubik;line-height:18px;box-shadow:4px 4px 0px var(--accent);text-align:justify;color:#333; }
 
 .yuentracker03-box { display:flex;flex-flow:row wrap; }
 .yuentracker03-cont { order:2;width:100%; }
@@ -50,7 +50,7 @@ width:420px;margin:30px auto;background:#fafafa;padding:40px;padding-bottom:25px
 .yuentracker03-cont span { display:flex;width:100%;box-sizing:border-box;justify-content:space-between;font:15px rubik;margin-bottom:10px;background:white;border-radius:20px 0px 0px 20px;line-height:28px;padding-right:10px;border-right:3px solid var(--accent); }
 .yuentracker03-cont span font { margin-right:10px;background:var(--accent) var(--bgimg) 75% 50% fixed;background-blend-mode:multiply;color:#fafafa;border-radius:20px;padding:0px 8px;font-weight:500;text-transform:uppercase; }
 
-.yuentracker03-cont div { margin:0px -5px;margin-top:20px;width:calc(100% + 10px);display:flex;flex-flow:row nowrap;align-items:center; }
+.yuentracker03-cont div { margin-top:20px;width:100%;display:flex;flex-flow:row nowrap;align-items:center; }
 
 .yuentracker03-cont b { display:flex;align-content:center;justify-content:flex-start;align-items:center;width:75px;height:75px; }
 .yuentracker03-cont yd { margin-left:-25px;margin-right:-45px;background:#eee;border:1px solid var(--accent);border-radius:5px;padding:2px 5px;color:var(--accent);position:relative;z-index:10; }
