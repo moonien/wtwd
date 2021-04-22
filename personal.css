@@ -23,7 +23,7 @@ width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubi
 .yuendev03-ship { display:flex;flex-flow:row-reverse nowrap;height:60px;align-items:center;background:var(--bgimg) 70% 50% fixed,var(--accent);background-blend-mode:multiply;border-radius:70px;margin:20px -20px;padding:5px; }
 .yuendev03-ship:first-child { margin-top:0px; }
 .yuendev03-ship img { width:50px;height:50px;object-fit:cover;border:5px solid #fafafa;border-radius:60px; }
-.yuendev03-ship .yuen-pkmn img { width:60px;height:60px;object-fit:contain;box-sizing:border-box; }
+.yuendev03-ship .yuen-pkmn img { width:60px;height:60px;box-sizing:border-box; }
 .yuendev03-ship span.th { box-sizing:border-box;padding-left:1px;width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:37px;box-sizing:border-box;color:#000;mix-blend-mode:screen;background:#fafafa; }
 .yuendev03-ship span { border-radius:60px; }
 .yuendev03-ship a { width:200px;padding:0px 30px;text-align:center;color:#000;text-shadow:1px 1px 0px white,-1px 1px 0px white,-1px -1px 0px white,1px -1px 0px white;font:700 20px rubik;text-transform:uppercase;mix-blend-mode:screen;line-height:18px; }
