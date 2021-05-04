@@ -663,3 +663,33 @@ z-index: 100;}
 .classtitle{width: 430px; height: 20px; padding: 10px; background-color: #ddd; color: #000; text-align: center;}
 .classinfo {width: 430px; height: 20px; padding: 10px; border-top: solid 1px #5b5b5b; border-bottom: solid 1px #5b5b5b;}
 .classcomments {width: 430px; height: 70px; padding: 10px;}
+
+
+/***********************************
+ THIRD APP
+************************************/
+
+.app3 td b,
+.app3 h1 { font-family: josefin sans; text-transform: uppercase; }
+.app3 td { font-family: rubik; }
+.appb3 { background: #fff; width: 450px; padding: 25px; border-bottom-left-radius: 15px; font-family: Poppins; }
+.appb3 b { color: var(--accent); text-transform: uppercase; }
+
+.appi1 { width: 300px; text-align: justify; }
+.appi2 img { width: 125px; height: 125px; object-fit: cover; border: solid 3px var(--accent); border-radius: 50%; filter: grayscale(1); transition: 1.5s; }
+.appi2 img:hover { filter: grayscale(0); transition: 1.5s; }
+.appi3 { border-top: dotted 1px #999; height: 160px; overflow: hidden; padding-top: 15px; }
+.appi4 { width: 205px; padding-right: 5px; margin-left: 5px; height: 145px; overflow: auto; text-align: justify; line-height: 16px;  }
+.appi4 i { color: #999; line-height: 12px; }
+.appi4 h1 { color: var(--accent); font-size: 16px; line-height: 16px; margin-bottom: -2px; }
+.appi5 { width: 220px; margin-right: 5px; height: 145px;  }
+.appi5 img { transition: 1.5s; width: 220px; height: 145px; object-fit: cover; filter: grayscale(1); }
+.appi5 img:hover { transition: 1.5s; filter: grayscale(0); }
+.appi6 { width: 150px; text-align: right; margin-left: 10px; line-height: 14px; height: 200px; overflow: hidden;}
+.appi6ali { margin-bottom: 5px; height: 16px; font-size: 16px; text-align: center; padding-top: 13px; padding-bottom: 5px; background: var(--accent); font-family: josefin sans; text-transform: uppercase; font-weight: bold; }
+.appi6 b { color: var(--accent); text-transform: uppercase;  }
+.appi6bg { background: linear-gradient(to right, rgba(var(--rgb),0.5), rgba(0,0,0,0.5)), var(--profile); background-size: cover; width: 150px; height: 38px; }
+.appi7 { width: 280px; text-align: justify; font-size: 12px; height: 200px; overflow: auto; line-height: 16px; padding-right: 5px; }
+.appi8 { height: 205px; border-top: dotted 1px #999; padding-top: 10px; }
+.appi9 { background: #efefef; padding: 10px 15px; height: 170px; overflow: auto; border-bottom: solid 1px var(--accent); text-align: justify; }
+.appb3b { width: 30px; text-transform: uppercase; font-size: 24px; line-height: 24px; background: var(--accent); height: 300px; margin-left: -5px; padding: 35px 10px; text-align: center; font-family: josefin sans; font-weight: bold; text-shadow: 1px #fff; word-break: break-all; border-radius: 0px 15px 15px 0px; writing-mode: vertical-rl; }
