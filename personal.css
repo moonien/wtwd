@@ -27,7 +27,7 @@ width:300px;margin:30px auto;background:#fafafa;padding:30px 40px;font:13px rubi
 .yuendev03-ship .yuen-pkmn img { width:60px;height:60px;box-sizing:border-box;border-radius:0px;border:none; }
 .yuendev03-ship span.th { border-radius:60px;box-sizing:border-box;padding-left:1px;width:60px;height:60px;display:flex;align-items:center;justify-content:center;font-size:37px;box-sizing:border-box;color:#000;mix-blend-mode:screen;background:#fafafa; }
 .yuendev03-ship a { width:200px;padding:0px 30px;text-align:center;color:#000;text-shadow:1px 1px 0px white,-1px 1px 0px white,-1px -1px 0px white,1px -1px 0px white;font:700 20px rubik;text-transform:uppercase;mix-blend-mode:screen;line-height:18px; }
-.yuendev03:nth-child(odd) .yuendev03-ship { flex-direction:row; }
+/*.yuendev03:nth-child(odd) .yuendev03-ship { flex-direction:row; }*/
 
 .yuendev03 center img { width:100%;border-radius:7px;margin:10px 0px; }
 .yuendev03-lyrics { margin:0px -10px; }
