@@ -386,6 +386,7 @@ height: 250px;
 padding: 15px;
 border: solid 1px #ddd;
 position: relative; 
+line-height: 9px;
 bottom: 262px;
 left: 125px;
 }
