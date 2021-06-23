@@ -564,8 +564,8 @@ New Application
 .app2Num { font-family: 'chrono'; font-size: 50px; }
 .app2Mini { font-family: var(--mainFont); text-transform: uppercase; font-size: 10px; padding: 10px; letter-spacing: 1px; }
 .app2T { padding: 0px 20px; display: flex; flex-wrap: wrap; }
-.appDet { font-family: var(--mainFont); font-weight: 300; margin: 0px; 10px; }
-.appDet2 { text-transform: uppercase; font-size: 10px; padding-right: 5px; letter-spacing: 1px; font-weight: 400; }
+.appDet { font-family: var(--mainFont); font-weight: 400; margin: 0px; 10px; }
+.appDet2 { text-transform: uppercase; font-size: 11px; padding-right: 5px; letter-spacing: 1px; font-weight: 400; }
 .app2Fl { display: flex; justify-content: space-around; width: 100%; align-items: center; padding: 15px 0px; margin-top: 25px; }
 .app2Tx { width: 320px; box-sizing: border-box; padding: 15px; height: 200px; }
 .app2Inn { height: 180px; padding-right: 10px; overflow-y: auto; font-family: var(--mainFont); text-align: justify; text-transform: lowercase; font-size: 14px; box-sizing: border-box; font-weight: 400; }
