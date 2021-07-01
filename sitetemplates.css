@@ -588,10 +588,10 @@ New Application
 .monstDate { text-align: right; font-size: 40px; font-family: 'chrono'; padding: 20px 0px; }
 .monstSpan { border-bottom: 1px solid var(--accent); padding: 5px 0px; }
 .monstOut { width: 400px; padding: 20px; box-sizing: border-box; background-color: #fff; margin: auto; }
-.monstIn { font-size: 12px; text-align: justify; padding: 20px; font-family: var(--mainFont); font-weight: 300; font-size: 13px; }
+.monstIn { font-size: 12px; text-align: justify; padding: 20px; font-family: var(--mainFont); font-weight: 400; font-size: 13px; }
 .monstBot { border-bottom: 1px solid #000; padding: 20px 0px; }
 
-.monstFont { font-size: 13px; text-align: justify; padding: 20px; font-family: var(--mainFont); font-weight: 300; }
+.monstFont { font-size: 13px; text-align: justify; padding: 20px; font-family: var(--mainFont); font-weight: 400; }
 .monstFont b { color: var(--accent); }
 .monstFont i { color: var(--accent); border-bottom: dotted 1px #5b5b5b; }
 .monstScroll { height: 350px; overflow-y: auto; padding-right: 5px; }
@@ -688,4 +688,4 @@ z-index: 100;}
 .appi7 { width: 280px; text-align: justify; font-size: 12px; height: 200px; overflow: auto; line-height: 16px; padding-right: 5px; }
 .appi8 { height: 205px; border-top: dotted 1px #999; padding-top: 10px; }
 .appi9 { background: #efefef; padding: 10px 15px; height: 170px; overflow: auto; border-bottom: solid 1px var(--accent); text-align: justify; }
-.appb3b { width: 30px; text-transform: uppercase; font-size: 24px; line-height: 24px; background: var(--accent); height: 300px; margin-left: -5px; padding: 35px 10px; text-align: center; font-family: josefin sans; font-weight: bold; text-shadow: 1px #fff; word-break: break-all; border-radius: 0px 15px 15px 0px; writing-mode: vertical-rl; }
+.appb3b { width: 30px; text-transform: uppercase; font-size: 24px; line-height: 24px; background: var(--accent); height: 300px; margin-left: -4px; padding: 35px 10px; text-align: center; font-family: josefin sans; font-weight: bold; text-shadow: 1px #fff; word-break: break-all; border-radius: 0px 15px 15px 0px; writing-mode: vertical-rl; }
