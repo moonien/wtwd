@@ -185,7 +185,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 
 .genmain3 img{
 width: 115px;
-height: 115px;}
+height: 115px;object-fit:cover;}
 
 /****************************************
    Applications
