@@ -740,9 +740,9 @@ NEW TEMPLATES
 .meet tag { background: var(--accent); backdrop-filter: opacity(.6); padding: 5px; font-family: var(--bodyFont); font-size: 11px; margin: 5px;}
 .your { width: 90%; height: 80%; overflow: auto; font-family: var(--bodyFont); font-size: 13px; line-height: 150%; text-align: justify; color: white; padding: 5%; }
 
-.take { width: 400px; height: 440px; background: linear-gradient(45deg, #fafafa, var(--accent), #333); border-radius: 10px; overflow: hidden; }
-.it { writing-mode: vertical-rl; color: #fff; padding-top: 25px; font-family: var(--headFont); font-size: 16px; margin-left: 45px;position:absolute;  }
-.it::before { width: 1px; height: 370px; background: #333; content: ""; display: block; position: absolute;margin-top:45px;margin-right:40px;  }
+.take { margin:0px auto;text-align:justify;width: 400px; height: 440px; background: linear-gradient(45deg, #fafafa, var(--accent), #333); border-radius: 10px; overflow: hidden; }
+.it { writing-mode: vertical-rl; color: #fff; padding-top: 25px; font-family: var(--headFont); font-size: 16px; margin-left: 35px;position:absolute;  }
+.it::before { width: 1px; height: 370px; background: #333; content: ""; display: block; position: absolute;margin-top:45px;margin-right:30px;  }
 .out { width: 250px; height: 300px; padding:  100px 25px 0px; background: linear-gradient(to bottom, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0)); backdrop-filter: blur(2px); margin-left: 70px; margin-top: -30px;  }
 .on { width: 200px; height: 300px; overflow: auto; text-align: justify; padding-right: 10px; }
 
