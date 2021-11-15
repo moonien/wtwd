@@ -12,6 +12,7 @@ document.write(`<style>
 .fizzthreadwrap {display: block; position: relative; text-decoration: none;}
 .tracker-item {margin-left: 2em; margin-bottom: 0.5em;}
 .fizztrackerwrap .tracker-item {text-indent: -1.75em;}
+.tracker-item a { color:var(--accent); }
 .tracker-item .status {width: 1.5em; text-align: center;font-family: serif; display: inline-block; line-height: 1}
 .tracker-item .caughtup {color: green;}
 .tracker-item .myturn {color: firebrick}
@@ -48,7 +49,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="cp cp-refresh"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="material-icons">refresh</span>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
     Closed_Thread_Wrapper.append(`<p>completed</p>`);
 
@@ -73,7 +74,7 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['<span class="cp cp-check-mark"></span>', '<span class="cp cp-cross"></span>'];
+        params.indicators = ['<span class="material-icons">done</span>', '<span class="material-icons">close</span>'];
     }
     if (!params.lockedMacroIdentifier) {
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
