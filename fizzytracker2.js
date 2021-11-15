@@ -3,6 +3,7 @@
 // THE SCRIPT IS ONLY HOSTED BY YUEN HERE WITH SPECIFIC MODIFICATIONS PERTAINING TO WHERE THE THE WIND DECIDES (https://halfwild.jcink.net/)
 
 document.write(`<style>
+@import url('https://icons.cappuccicons.com/cpf.css');
 .fizztrackerwrap, .fizzhistorywrap {position: relative; max-width: 500px; margin: 10px auto; padding: 1px 15px;}
 .fizztrackerwrap p, .fizzhistorywrap p {
     position: relative;
@@ -78,10 +79,10 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['âœ“', 'âž¤'];
+        params.indicators = ['<span class="cp cp-check-mark"></span>', '<span class="cp cp-cross"></span>'];
     }
     if (!params.lockedMacroIdentifier) {
-        params.indicators = ['<span class="cp cp-check-mark"></span>', '<span class="cp cp-cross"></span>'];
+        params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
     }
     if (!params.archiveForumNames) {
         params.archiveForumNames = ["completed", "season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10", "season 11", "season 12"];
