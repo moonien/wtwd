@@ -1,3 +1,7 @@
+// THIS TRACKER SCRIPT HAS BEEN CREATED BY FIZZY (https://fizzyelf.jcink.net/index.php?showtopic=10)
+// ALL CREDITS TO FIZZY
+// THE SCRIPT IS ONLY HOSTED BY YUEN HERE WITH SPECIFIC MODIFICATIONS PERTAINING TO WHERE THE THE WIND DECIDES (https://halfwild.jcink.net/)
+
 document.write(`<style>
 .fizztrackerwrap, .fizzhistorywrap {position: relative; max-width: 500px; margin: 10px auto; padding: 1px 15px;}
 .fizztrackerwrap p, .fizzhistorywrap p {
@@ -49,7 +53,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>Active <span style="font:serif">âŸ³</span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="cp cp-refresh"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
     Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
@@ -57,7 +61,7 @@ function createTrackerElements (params, Current_Script) {
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
     $(Closed_Thread_Wrapper).append(params.thisHistory);
 
-    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code âœ‘ by <a href="http://fizzyelf.jcink.net">FizzyElf</a> ðŸ¾</center>`);
+    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code <span class="cp cp-poet"></span> by <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="cp cp-paw"></span></center>`);
 }
 
 function TrackParticipatedThreads(params = {}) {
@@ -77,7 +81,7 @@ console.log("tracker num ", trackernum)
         params.indicators = ['âœ“', 'âž¤'];
     }
     if (!params.lockedMacroIdentifier) {
-        params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
+        params.indicators = ['<span class="cp cp-check-mark"></span>', '<span class="cp cp-cross"></span>'];
     }
     if (!params.archiveForumNames) {
         params.archiveForumNames = ["completed", "season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10", "season 11", "season 12"];
