@@ -17,7 +17,6 @@ document.write(`<style>
 .fizzthreadwrap {display: block; position: relative; text-decoration: none;}
 .tracker-item {margin-left: 2em; margin-bottom: 0.5em;}
 .fizztrackerwrap .tracker-item {text-indent: -1.75em;}
-.tracker-item a { color:var(--accent); }
 .tracker-item .status {width: 1.5em; text-align: center;font-family: serif; display: inline-block; line-height: 1}
 .tracker-item .caughtup {color: green;}
 .tracker-item .myturn {color: firebrick}
@@ -45,19 +44,24 @@ function createTrackerElements (params, Current_Script) {
 
     const Open_Thread_Wrapper = $("<div class='fizztrackerwrap'></div>");
     const Alt_Thread_Wrapper = $("<div class='fizztrackerwrap' style='display:none;'></div>");
+    const Closed_Thread_Wrapper = $("<div class='fizzhistorywrap'></div>");
     $(Current_Script).before(Open_Thread_Wrapper);
     $(Current_Script).before(Alt_Thread_Wrapper);
+    $(Current_Script).before(Closed_Thread_Wrapper);
 
     params.thisTracker = $(`<div id="track${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
+    params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
+    Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
+    $(Closed_Thread_Wrapper).append(params.thisHistory);
 
-    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print"></span></center>`);
+    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil-fill"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print-fill"></span></center>`);
 }
 
 function TrackParticipatedThreads(params = {}) {
@@ -74,7 +78,7 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['<span class="ph-check"></span>', '<span class="ph-arrow-right"></span>'];
+        params.indicators = ['<span class="ph-check-bold"></span>', '<span class="ph-arrow-right-bold"></span>'];
     }
     if (!params.lockedMacroIdentifier) {
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
