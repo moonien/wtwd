@@ -44,14 +44,11 @@ function createTrackerElements (params, Current_Script) {
 
     const Open_Thread_Wrapper = $("<div class='fizztrackerwrap'></div>");
     const Alt_Thread_Wrapper = $("<div class='fizztrackerwrap' style='display:none;'></div>");
-    const Closed_Thread_Wrapper = $("<div class='fizzhistorywrap'></div>");
     $(Current_Script).before(Open_Thread_Wrapper);
     $(Current_Script).before(Alt_Thread_Wrapper);
-    $(Current_Script).before(Closed_Thread_Wrapper);
 
     params.thisTracker = $(`<div id="track${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
-    params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
     Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
@@ -59,7 +56,6 @@ function createTrackerElements (params, Current_Script) {
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
-    $(Closed_Thread_Wrapper).append(params.thisHistory);
 
     $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil-fill"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print-fill"></span></center>`);
 }
@@ -117,7 +113,6 @@ function RefreshParticipatedTracker (params, Is_Mobile) {
     return function() {
         params.thisTracker.html('');
         params.thisAltTracker.html('');
-        params.thisHistory.html('');
         setTimeout(async () => {
             await FillTracker(params.characterName, params);
             if (Is_Mobile) $.get("/?act=mobile");
