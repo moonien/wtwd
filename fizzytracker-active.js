@@ -3,7 +3,7 @@
 // THE SCRIPT IS ONLY HOSTED BY YUEN HERE WITH SPECIFIC MODIFICATIONS PERTAINING TO WHERE THE THE WIND DECIDES (https://halfwild.jcink.net/)
 
 document.write(`<style>
-@import url('https://icons.cappuccicons.com/cpf.css');
+@import url('https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css');
 .fizztrackerwrap, .fizzhistorywrap {position: relative; max-width: 500px; margin: 10px auto; padding: 1px 15px;}
 .fizztrackerwrap p, .fizzhistorywrap p {
     position: relative;
@@ -51,13 +51,13 @@ function createTrackerElements (params, Current_Script) {
     params.thisTracker = $(`<div id="track${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="cp cp-refresh"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
 
-    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code <span class="cp cp-poet"></span> by <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="cp cp-paw"></span></center>`);
+    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print"></span></center>`);
 }
 
 function TrackParticipatedThreads(params = {}) {
@@ -74,7 +74,7 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['<span class="cp cp-check-mark"></span>', '<span class="cp cp-cross"></span>'];
+        params.indicators = ['<span class="ph-check"></span>', '<span class="ph-arrow-right"></span>'];
     }
     if (!params.lockedMacroIdentifier) {
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
