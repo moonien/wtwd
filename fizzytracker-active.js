@@ -52,7 +52,6 @@ function createTrackerElements (params, Current_Script) {
 
     Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
-    Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
