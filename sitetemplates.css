@@ -753,7 +753,7 @@ NEW TEMPLATES
 .instm { width: 290px; background: var(--accent); display: flex; justify-content: flex-start; padding: 15px 25px 5px 25px; border-top-right-radius: 15px;  font-family: var(--bodyFont); font-size: 12px; text-transform: uppercase; color: white; flex-direction:column; text-align: left; }
 .instm marquee { marquee-speed: slow; width: 75%; }
 .instm b { font-family: var(--headFont); font-size: 24px; text-transform: lowercase; font-weight: bold;}
-.instb { width: 250px; padding: 25px 45px; background: var(--profile); overflow: auto; max-height: 350px; display: flex; justify-content: flex-start; align-items: center; flex-direction:column; }
+.instb { width: 250px; padding: 25px 45px; background: var(--profile); overflow-y: auto; overflow-x: hidden; max-height: 350px; display: flex; justify-content: flex-start; align-items: center; flex-direction:column; }
 .instb p { width: 100%; font-size: 14px; text-align: justify; padding: 2% 5%; margin-bottom: 2px; margin-top: 2px; background: white;}
 .instb p:nth-child(even) { border: solid 5px rgba(var(--rgb),0.6); backdrop-filter: blur(5px);  }
 .instb p:nth-child(odd) { border: solid 5px rgba(var(--rgb),0.3); backdrop-filter: blur(2px); }
@@ -800,3 +800,13 @@ div.content::-webkit-scrollbar-track { width: 1px; }
 .eyez { width: 35px; text-transform: uppercase; font-size: 24px; line-height: 28px; background: var(--accent); height: 300px; margin-left: -5px; padding: 35px 10px; text-align: center; font-family: josefin sans; font-weight: bold; text-shadow: 1px #fff; word-break: break-all; }
 .eyez tag { word-break: keep-all; font-size: 12px; font-weight: normal; color: #000; line-height: 14px; float: bottom; writing-mode: vertical-rl; align: center; white-space: pre-wrap;}
 .eyez tag a { color: #000; }
+
+
+
+
+
+.aoku { width: 80%; text-align: justify;}
+.aoku b { color: var(--accent); }
+.kakero { width: 20%; padding-left: 15px; }
+.funnicular { background-color: var(--accent); width: 400px; padding: 8px 25px; border-radius: 5px 5px 0px 0px; font-family: var(--headFont); text-transform: uppercase; color: #fff; text-shadow: 1px 1px #222; font-size: 16px; font-weight: bold; text-align: right; }
+.worldview { background-color: #fafafa; width: 400px; padding: 15px 24px; border-left: solid 1px var(--accent); border-right: solid 1px var(--accent); border-bottom: solid 10px var(--accent); font-family: var(--mainFont); font-size: 13px; line-height: 150%; display: flex; align-items: flex-start; }
