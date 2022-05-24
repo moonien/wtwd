@@ -108,7 +108,7 @@ console.log("tracker num ", trackernum)
 
 }
 
-function RefreshParticipatedTracker (params, Is_Mobile) {
+/*function RefreshParticipatedTracker (params, Is_Mobile) {
     return function() {
         params.thisTracker.html('');
         params.thisAltTracker.html('');
@@ -119,5 +119,5 @@ function RefreshParticipatedTracker (params, Is_Mobile) {
             
         }, 0); 
     }
-}
+}*/
 
