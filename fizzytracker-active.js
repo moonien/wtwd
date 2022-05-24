@@ -50,7 +50,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisTracker = $(`<div id="track${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold" style="display:none"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
@@ -90,7 +90,7 @@ console.log("tracker num ", trackernum)
 
     loadJsFile('https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js', window.jQuery, function() {
         if (!params.characterName) {
-            params.characterName = $(Current_Script).closest(".mobile-post, .post-normal").find("a[href*=showuser]").first().text().trim();
+            params.characterName = $(Current_Script).closest(".mobile-post, .kasih").find("a[href*=showuser]").first().text().trim();
         }
         createTrackerElements(params, Current_Script);
         loadJsFile('https://files.jcink.net/uploads2/fizzyelf/sharedresources/autoTrackerMainProfile.js', window.FillTracker, function() {
