@@ -50,7 +50,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisTracker = $(`<div id="track${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold" style="display:none"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise-bold"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
@@ -108,7 +108,7 @@ console.log("tracker num ", trackernum)
 
 }
 
-/*function RefreshParticipatedTracker (params, Is_Mobile) {
+function RefreshParticipatedTracker (params, Is_Mobile) {
     return function() {
         params.thisTracker.html('');
         params.thisAltTracker.html('');
@@ -119,5 +119,5 @@ console.log("tracker num ", trackernum)
             
         }, 0); 
     }
-}*/
+}
 
