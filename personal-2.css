@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,500,500i,700,700i|Averia+Serif+Libre:700|Ubuntu+Mono:400');
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
-@font-face {
-	font-family: chrono;
-	src: url(https://files.jcink.net/uploads2/kaitskins018/ChronosSerif_Stroked.otf);
-}
-
-
-
-body { background:#eee;padding:300px 0px; }
 
 
 .yuentracker03-2 { --tbg:var(--accent) url(https://live.staticflickr.com/7258/27263552834_d3fc4e6a72_h.jpg) fixed;
