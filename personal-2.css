@@ -10,7 +10,7 @@ width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:ju
 
 .yuentracker03-2-cont font,
 .yuentracker03-2-cont span { display:flex;width:100%;box-sizing:border-box; }
-.yuentracker03-2-cont font { font:40px averia serif libre;line-height:44px;-webkit-text-stroke:thin;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;padding-top:15px;text-align:left; }
+.yuentracker03-2-cont font { font:40px averia serif libre;line-height:44px;-webkit-text-stroke-width:1px;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;padding-top:15px;text-align:left; }
 .yuentracker03-2-cont font:first-child { margin-top:0px; }
 .yuentracker03-2-cont span { align-items:flex-end;justify-content:center;background:var(--tbg);background-blend-mode:multiply;background-size:cover;text-transform:uppercase;font:15px ubuntu mono;margin:15px 0px;padding-top:0px;overflow:hidden; }
 .yuentracker03-2-cont span b { padding:10px 15px;border-top-left-radius:0px;border-top-right-radius:0px;color:var(--accent);background:white;box-shadow:0px 0px 4px 1px var(--accent); }
@@ -42,7 +42,7 @@ width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:ju
 .yuentracker03-2-top naps:nth-child(odd) font { margin-top:-80px; }
 
 .yuentracker03-2-top .ytd-2-image { width:100%;margin-bottom:-50px; }
-.yuentracker03-2-top .ytd-2-image span { font:50px averia serif libre;line-height:44px;-webkit-text-stroke:thin;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;text-shadow:3px 0px 0px #eee,-3px 0px 0px #eee;margin-left:20px;padding-top:15px;transform:rotateZ(-5deg);transform-origin:0% 0%;text-align:left; }
+.yuentracker03-2-top .ytd-2-image span { font:50px averia serif libre;line-height:44px;-webkit-text-stroke-width:1px;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;text-shadow:3px 0px 0px #eee,-3px 0px 0px #eee;margin-left:20px;padding-top:15px;transform:rotateZ(-5deg);transform-origin:0% 0%;text-align:left; }
 .yuentracker03-2-top .ytd-2-image img { width:100px;height:100px;object-fit:cover;border-radius:150px;padding:10px;background:#fafafa;border:3px solid #ddd;float:left;margin-right:15px;position:relative;z-index:2; }
 
 .ytd-2-active:before,
