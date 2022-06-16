@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,500,500i,700,700i|Averia+Serif+Libre:700|Ubuntu+Mono:400');
+@import url('https://solrainha.github.io/saturnicons/saturnicons.css');
+@font-face {
+	font-family: chrono;
+	src: url(https://files.jcink.net/uploads2/kaitskins018/ChronosSerif_Stroked.otf);
+}
+
+
+
+body { background:#eee;padding:300px 0px; }
+
+
+.yuentracker03-2 { --tbg:var(--accent) url(https://live.staticflickr.com/7258/27263552834_d3fc4e6a72_h.jpg) fixed;
+width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:justify; }
+
+.yuentracker03-2-box { display:flex;flex-flow:row wrap; }
+.yuentracker03-2-cont { order:2;width:100%; }
+
+.yuentracker03-2-cont font,
+.yuentracker03-2-cont span { display:flex;width:100%;box-sizing:border-box; }
+.yuentracker03-2-cont font { font:40px averia serif libre;line-height:44px;-webkit-text-stroke:thin;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;padding-top:15px;text-align:left; }
+.yuentracker03-2-cont font:first-child { margin-top:0px; }
+.yuentracker03-2-cont span { align-items:flex-end;justify-content:center;background:var(--tbg);background-blend-mode:multiply;background-size:cover;text-transform:uppercase;font:15px ubuntu mono;margin:15px 0px;padding-top:0px;overflow:hidden; }
+.yuentracker03-2-cont span b { padding:10px 15px;border-top-left-radius:0px;border-top-right-radius:0px;color:var(--accent);background:white;box-shadow:0px 0px 4px 1px var(--accent); }
+.yuentracker03-2-cont font:after { content:"."; }
+
+.yuentracker03-2-cont div { width:calc(100% - 0px);margin:0px;box-sizing:border-box;border-radius:15px;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-start; }
+
+.yuentracker03-2-cont div[class^="ytr"] { display:flex;flex-flow:row nowrap;align-items:stretch;font:13px ubuntu mono;border-radius:15px;overflow:hidden;margin:10px 0px;background:#fafafa; }
+.yuentracker03-2-cont yt,
+.yuentracker03-2-cont div[class^="ytr"] b,
+.yuentracker03-2-cont i,
+.yuentracker03-2-cont s { display:flex;align-items:center;flex-flow:row wrap; }
+.yuentracker03-2-cont yt { margin-left:-25px;position:relative;z-index:2;text-align:left;width:100%;box-sizing:border-box;padding:9px;justify-content:space-between;line-height:15px; }
+.yuentracker03-2-cont yt a { text-decoration:none;font-weight:700;padding-top:0px;padding-bottom:0px;text-transform:uppercase;font-size:14px;background:rgba(250,250,250,0.5);border-radius:4px;color:var(--accent);padding:2px 5px; }
+.yuentracker03-2-cont yt i { font-style:normal;padding:2px 0px; }
+.yuentracker03-2-cont s,
+.yuentracker03-2-cont s:before { content:var(--yicon);font:55px saturnicons;text-shadow:2px 2px 0px #eee; }
+.yuentracker03-2-cont div[class^="ytr"] b { width:42px;justify-content:center;order:-1;font-weight:bolder;font-size:18px;background:var(--tbg);background-blend-mode:multiply;background-size:cover;color:white;border-right:5px solid var(--accent);position:relative;z-index:2; }
+.yuentracker03-2-cont s { width:0px;color:var(--accent);transform:rotateZ(16deg);transform-origin:0% 0%;position:relative;z-index:1;margin:-20px 0px;margin-left:25px;opacity:0.3;padding-top:0px; }
+
+
+.yuentracker03-2-top { width:100%;display:flex;flex-flow:row wrap;justify-content:flex-end;margin-bottom:0px;font-size:0px;color:#fafafa; }
+.yuentracker03-2-top naps,
+.yuentracker03-2-top naps i,
+.yuentracker03-2-top naps:before {  }
+.yuentracker03-2-top naps { display:inline-block;background:var(--tbg);background-blend-mode:multiply;background-size:cover;border-radius:100px;height:60px;width:60px;margin-left:10px;text-align:left;border:5px solid #fafafa;box-shadow:0px 0px 0px 2px #ddd; }
+.yuentracker03-2-top naps i { position:relative;font-style:normal;z-index:2;font-size:50px;line-height:60px;text-align:center;display:block; }
+.yuentracker03-2-top naps font { display:block;width:max-content;font-size:12px;font-weight:bold;padding:2px 5px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;margin:0px auto;text-transform:uppercase;background:#fafafa;margin-top:-5px; }
+.yuentracker03-2-top naps:nth-child(odd) font { margin-top:-80px; }
+
+.yuentracker03-2-top .ytd-2-image { width:100%;margin-bottom:-50px; }
+.yuentracker03-2-top .ytd-2-image span { font:50px averia serif libre;line-height:44px;-webkit-text-stroke:thin;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;text-shadow:3px 0px 0px #eee,-3px 0px 0px #eee;margin-left:20px;padding-top:15px;transform:rotateZ(-5deg);transform-origin:0% 0%;text-align:left; }
+.yuentracker03-2-top .ytd-2-image img { width:100px;height:100px;object-fit:cover;border-radius:150px;padding:10px;background:#fafafa;border:3px solid #ddd;float:left;margin-right:15px;position:relative;z-index:2; }
+
+.ytd-2-active:before,
+.ytd-2-inactive:before,
+.ytd-2-finished:before,
+.ytd-2-comm:before { width:60px;position:absolute;content:var(--yicon);font:40px saturnicons;line-height:60px;z-index:8;opacity:0.3;z-index:9;text-align:center;z-index:1; }
+
+.ytd-2-active {  }
+.ytd-2-inactive {  }
+.ytd-2-finished {  }
+.ytd-2-comm {  }
+
+.yuentracker03-2 { counter-reset:active; }
+.yuentracker03-2-box { counter-reset:inactive; }
+.yuentracker03-2-cont { counter-reset:finished; }
+.yuentracker03-2-comm { counter-reset:comm; }
+.ytr-comm { counter-increment:comm; }
+.ytr-active { counter-increment:active; }
+.ytr-inactive { counter-increment:inactive;opacity:0.5;transition:0.8s;position:relative;z-index:8; }
+.ytr-inactive a,
+.ytr-inactive yt { text-decoration:line-through!important; }
+.ytr-inactive:hover { opacity:1; }
+.ytr-finished { counter-increment:finished; }
+.ytd-2-comm i:after { content:counter(comm); }
+.ytd-2-active i:after { content:counter(active); }
+.ytd-2-inactive i:after { content:counter(inactive); }
+.ytd-2-finished i:after { content:counter(finished); }
+
+.ytd-2-comm,.ytr-comm { --yicon:"\e234"; }
+.ytd-2-active,.ytr-active { --yicon:"\e2b8"; }
+.ytd-2-inactive,.ytr-inactive { --yicon:"\e200"; }
+.ytd-2-finished,.ytr-finished { --yicon:"\e07c"; }
