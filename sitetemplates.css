@@ -9,9 +9,9 @@
 2nd Anniversary'22 Bingo
 *****************************************/
 
-.ann2 { width: 475px; padding-bottom: 10px; padding-top: 40px; border: solid 1px #999; background: var(--accent); background-image: url(https://files.jcink.net/uploads2/halfwild/backgrounds/axiom_pattern.png); font-family: var(--headFont); font-size: 34px; color: #fff; text-transform: uppercase; font-weight: bold;}
+.ann2 { width: 475px; padding-bottom: 10px; padding-top: 40px; border: solid 1px #999; background: var(--accent); background-image: url(https://files.jcink.net/uploads2/halfwild/backgrounds/axiom_pattern.png); font-family: var(--headFont); font-size: 34px; line-height: 40px; color: #fff; text-transform: uppercase; font-weight: bold;}
 .ann2content { width: 100%; display: grid; grid-template-columns: 150px 150px 150px; padding-top: 25px; padding-left: 10px; }
-.ann2box { background-color: rgba(255, 255, 255, 0.8); border: solid 2px #000; border-radius: 5%; font-family: var(--bodyFont); font-size: 14px; color: #000; height: 140px; width: 140px; display: flex;   justify-content: center; align-items: center; margin: 5px; }
+.ann2box { background-color: rgba(255, 255, 255, 0.8); border: solid 2px #000; border-radius: 5%; height: 140px; width: 140px; display: flex; justify-content: center; align-items: center; margin: 5px; }
 .ann2box a { display: block; height: 75px; width: 75px; }
 .ann2box:nth-child(5),
 .ann2box a { background-repeat: no-repeat; background-position: center; background-size: 75px; }
