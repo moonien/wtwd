@@ -6,6 +6,38 @@
 .spostc b { color: var(--accent); }
 
 /****************************************
+2nd Anniversary'22 Bingo
+*****************************************/
+
+.ann2 { width: 475px; padding-bottom: 10px; padding-top: 40px; border: solid 1px #999; background: var(--accent); background-image: url(https://files.jcink.net/uploads2/halfwild/backgrounds/axiom_pattern.png); font-family: var(--headFont); font-size: 34px; color: #fff; text-transform: uppercase; font-weight: bold;}
+.ann2content { width: 100%; display: grid; grid-template-columns: 150px 150px 150px; padding-top: 25px; padding-left: 10px; }
+.ann2box { background-color: rgba(255, 255, 255, 0.8); border: solid 2px #000; border-radius: 5%; font-family: var(--bodyFont); font-size: 14px; color: #000; height: 140px; width: 140px; display: flex;   justify-content: center; align-items: center; margin: 5px; }
+.ann2box a { display: block; height: 75px; width: 75px; }
+.ann2box:nth-child(5),
+.ann2box a { background-repeat: no-repeat; background-position: center; background-size: 75px; }
+  
+.ann2box:nth-child(2) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/cake_1_.png); }
+  
+.ann2box:first-child a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/rainbow_1_.png); }
+.ann2box:nth-child(2) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/cake_1_.png); }
+.ann2box:nth-child(3) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/jellyfish_1_.png); }
+.ann2box:nth-child(4) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/fan_1_.png); }
+.ann2box:nth-child(6) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/lemon_juice_1_.png); }
+.ann2box:nth-child(7) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/hot_air_balloon_1_.png); }
+.ann2box:nth-child(8) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/mill_1_.png); }
+.ann2box:nth-child(9) a[href="YOUR_LINK"] { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/ferris_wheel_1_.png); }
+  
+.ann2box:first-child a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/rainbow.png); }
+.ann2box:nth-child(2) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/cake.png); }
+.ann2box:nth-child(3) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/jellyfish.png); }
+.ann2box:nth-child(4) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/fan.png); }
+.ann2box:nth-child(5) { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/candles.png); }
+.ann2box:nth-child(6) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/lemon_juice.png); }
+.ann2box:nth-child(7) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/hot_air_balloon.png); }
+.ann2box:nth-child(8) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/mill.png); }
+.ann2box:nth-child(9) a { background-image: url(https://files.jcink.net/uploads2/halfwild/birthday22/ferris_wheel.png); }
+
+/****************************************
 Face Claims
 *****************************************/
 
