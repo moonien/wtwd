@@ -50,10 +50,15 @@ width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:ju
 .ytd-2-finished:before,
 .ytd-2-comm:before { width:60px;position:absolute;content:var(--yicon);font:40px saturnicons;line-height:60px;z-index:8;opacity:0.3;z-index:9;text-align:center;z-index:1; }
 
-.ytd-2-active {  }
-.ytd-2-inactive {  }
-.ytd-2-finished {  }
-.ytd-2-comm {  }
+.ytd-2-active {  order:2; }
+.ytd-2-inactive { order:3; }
+.ytd-2-finished { order:4; }
+.ytd-2-comm { order:5; }
+
+.ytd-2-active font {  }
+.ytd-2-inactive font { margin-left:-5px!important; }
+.ytd-2-finished font { margin-left:-5px!important; }
+.ytd-2-comm font {  }
 
 .yuentracker03-2 { counter-reset:active; }
 .yuentracker03-2-box { counter-reset:inactive; }
