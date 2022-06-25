@@ -79,7 +79,7 @@ console.log("tracker num ", trackernum)
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
     }
     if (!params.altForumNames) {
-        params.altForumNames = ["cellphones"];
+        params.altForumNames = ["cellphones", "online networks"];
     }
     if (!params.ignoreForumNames) {
         params.ignoreForumNames = ["completed", "math", "season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10", "season 11", "season 12", "the bulletin", "clubs", "events", "subplots", "the utilities", "templates", "processing", "incomplete", "claims", "abstruse", "witch", "shifter", "werewolf", "fae", "merfolk", "vampire", "spirit", "mythical", "faculty", "townsfolk", "platonic", "family", "romance", "groups", "mixed", "ayo", "castle", "emily", "exodin", "ina", "io", "j", "joei", "nyorobon", "kismyth", "lili", "manda", "mina", "molly", "moth", "silv", "tolvagary", "turtle", "yuen", "mish", "old stuff", "dev challenges", "the darkest timeline", "eykta", "crystal", "time lapse", "online networks", "subgroups", "applications", "misc", "the archives", "year 1", "year 2", "year 3", "previous events", "6 months!", "general", "wonderland"];
