@@ -33,11 +33,8 @@ width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:ju
 
 
 .yuentracker03-2-top { width:100%;display:flex;flex-flow:row wrap;justify-content:flex-end;margin-bottom:0px;font-size:0px;color:#fafafa; }
-.yuentracker03-2-top naps,
-.yuentracker03-2-top naps i,
-.yuentracker03-2-top naps:before {  }
 .yuentracker03-2-top naps { display:inline-block;background:var(--tbg);background-blend-mode:multiply;background-size:cover;border-radius:100px;height:60px;width:60px;margin-left:10px;text-align:left;border:5px solid #fafafa;box-shadow:0px 0px 0px 2px #ddd; }
-.yuentracker03-2-top naps i { position:relative;font-style:normal;z-index:2;font-size:50px;line-height:60px;text-align:center;display:block; }
+.yuentracker03-2-top naps i { position:relative;font-style:normal;z-index:2;font-size:40px;line-height:60px;text-align:center;display:block; }
 .yuentracker03-2-top naps font { display:block;width:max-content;font-size:12px;font-weight:bold;padding:2px 5px;color:var(--accent);border:1px solid var(--accent);border-radius:4px;margin:0px auto;text-transform:uppercase;background:#fafafa;margin-top:-5px; }
 .yuentracker03-2-top naps:nth-child(odd) font { margin-top:-80px; }
 
@@ -45,10 +42,7 @@ width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:ju
 .yuentracker03-2-top .ytd-2-image span { font:50px averia serif libre;line-height:44px;-webkit-text-stroke-width:1px;-webkit-text-fill-color:#fafafa;color:var(--accent);display:block;border-bottom:4px solid #ddd;text-shadow:3px 0px 0px #eee,-3px 0px 0px #eee;margin-left:20px;padding-top:15px;transform:rotateZ(-5deg);transform-origin:0% 0%;text-align:left; }
 .yuentracker03-2-top .ytd-2-image img { width:100px;height:100px;object-fit:cover;border-radius:150px;padding:10px;background:#fafafa;border:3px solid #ddd;float:left;margin-right:15px;position:relative;z-index:2; }
 
-.ytd-2-active:before,
-.ytd-2-inactive:before,
-.ytd-2-finished:before,
-.ytd-2-comm:before { width:60px;position:absolute;content:var(--yicon);font:40px saturnicons;line-height:60px;z-index:8;opacity:0.3;z-index:9;text-align:center;z-index:1; }
+.yuentracker03-2-top naps:before { width:60px;position:absolute;content:var(--yicon);font:40px saturnicons;line-height:60px;z-index:8;opacity:0.3;z-index:9;text-align:center;z-index:1; }
 
 .ytd-2-active {  order:2; }
 .ytd-2-inactive { order:3; }
