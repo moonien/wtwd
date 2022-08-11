@@ -42,7 +42,7 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 .yuenrel-box-facts li:before { content:"\e87b";font-family:material icons;font-size:19px;padding-top:1px;margin-right:5px; }
 
 .yuenrel-box-twoimages { font-size:0px; }
-.yuenrel-box-twoimages img { background:var(--bg);padding:5px;width:calc(50% - 5px);box-sizing:border-box;border-radius:10px; }
+.yuenrel-box-twoimages img { background:var(--bg);padding:5px;width:calc(50% - 5px);height:163px;object-fit:cover;box-sizing:border-box;border-radius:10px; }
 .yuenrel-box-twoimages img:first-child { margin-right:10px; }
 
 .yuenrel-box-quote box { text-align:center; }
