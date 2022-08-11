@@ -25,7 +25,8 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 
 .yuenrel-box-facts cats:before { content:"IN SHORT"; }
 .yuenrel-box-quote cats:before { content:"QUOTE"; }
-.yuenrel-box-twoimages cats:before { content:"MOOD"; }
+.yuenrel-box-twoimages cats:before,
+.yuenrel-box-oneimage cats:before { content:"MOOD"; }
 .yuenrel-box-timeline cats:before { content:"TIMELINE"; }
 
 .yuenrel-box-facts,
@@ -41,9 +42,13 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 .yuenrel-box-facts li:last-child { margin-bottom:0px; }
 .yuenrel-box-facts li:before { content:"\e87b";font-family:material icons;font-size:19px;padding-top:1px;margin-right:5px; }
 
-.yuenrel-box-twoimages { font-size:0px; }
-.yuenrel-box-twoimages img { background:var(--bg);padding:5px;width:calc(50% - 5px);height:163px;object-fit:cover;box-sizing:border-box;border-radius:10px; }
+.yuenrel-box-twoimages,
+.yuenrel-box-oneimage { font-size:0px; }
+.yuenrel-box-twoimages img,
+.yuenrel-box-oneimage img { background:var(--bg);padding:5px;width:calc(50% - 5px);height:163px;object-fit:cover;box-sizing:border-box;border-radius:10px; }
 .yuenrel-box-twoimages img:first-child { margin-right:10px; }
+
+.yuenrel-box-oneimage img { width:100%;height:auto; }
 
 .yuenrel-box-quote box { text-align:center; }
 .yuenrel-box-quote span { display:block;padding:0px 20px;font:italic 900 23px playfair display;text-transform:lowercase; }
