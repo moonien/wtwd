@@ -4,12 +4,13 @@
 width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:16px nunito;color:#222; }
 
 .yuenrel-head { padding:15px 25px;padding-bottom:0px;font:700 25px syne;line-height:26px;color:#fefefe; }
+.yuenrel-icon { font-size:0px;line-height:0px; }
 .yuenrel-icon div { height:130px;padding:20px 0px;background:white;mix-blend-mode:screen; }
 .yuenrel-icon div:before,
 .yuenrel-icon div:after { content:"";display:inline-block;height:130px;background:black;border-radius:20px; }
 .yuenrel-icon div:before { width:40px;border-top-left-radius:0px;border-bottom-left-radius:0px; }
 .yuenrel-icon div:after { width:calc(100% - 130px - 40px - 40px);border-top-right-radius:0px;border-bottom-right-radius:0px;margin-left:170px; }
-.yuenrel-icon img { width:130px;height:130px;object-fit:cover;border-radius:20px;margin-left:60px;margin-top:-150px;position:relative; }
+.yuenrel-icon img { width:130px;height:130px;object-fit:cover;border-radius:20px;margin-left:60px;margin-top:-150px;position:absolute; }
 
 
 .yuenrel-box { text-align:justify;background:#fff;padding:20px;padding-top:0px; }
@@ -20,7 +21,7 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 
 .yuenrel-box div cats { order:1; }
 .yuenrel-box div cats:before { font-size:18px;font-weight:bold;writing-mode:sideways-lr;width:20px; }
-.yuenrel-box div box { display:block;margin-right:5px;padding-right:15px;border-right:3px solid rgba(var(--rgb),0.6); }
+.yuenrel-box div box { display:block;width:100%;box-sizing:border-box;margin-right:5px;padding-right:15px;border-right:3px solid rgba(var(--rgb),0.6); }
 
 .yuenrel-box-facts cats:before { content:"IN SHORT"; }
 .yuenrel-box-quote cats:before { content:"QUOTE"; }
@@ -51,6 +52,13 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 .yuenrel-box-timeline li { list-style:none;margin-bottom:5px; }
 .yuenrel-box-timeline li:last-child { margin-bottom:0px; }
 .yuenrel-box-timeline b { text-transform:uppercase;font-size:95%; }
+
+
+.yuenrel-box div cats:before,
+.yuenrel-box-facts li:before,
+.yuenrel-box-quote span,
+.yuenrel-box-quote font,
+.yuenrel-box-timeline b { color:transparent;background:var(--bg);background-clip:text;-webkit-background-clip:text; }
 
 
 .yuenrel-box div cats:before,
