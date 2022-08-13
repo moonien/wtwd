@@ -17,7 +17,6 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 
 .yuenrel-box div { padding:20px 0px;display:flex;align-items:flex-end; }
 .yuenrel-box div:first-child { padding-top:0px; }
-.yuenrel-box div:last-child { padding-bottom:20px; }
 
 .yuenrel-box div cats { order:1; }
 .yuenrel-box div cats:before { font-size:18px;font-weight:bold;writing-mode:sideways-lr;width:20px; }
