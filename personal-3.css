@@ -3,7 +3,11 @@
 .yuenrel { --bg:linear-gradient(80deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%),linear-gradient(135deg, var(--accent) 10%, var(--other) 100%);
 width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:16px nunito;color:#222; }
 
-.yuenrel-head { padding:15px 25px;padding-bottom:0px;font:700 25px syne;line-height:16px;color:#fefefe; }
+.yuenrel-head { padding:15px 25px;padding-bottom:0px;font:700 25px syne;line-height:16px;color:#fefefe;text-align:left; }
+.yuengroup-head,
+.yuenlist-head { padding:15px 20px;padding-bottom:0px;padding-right:110px;font:700 25px syne;line-height:16px;color:#fefefe;text-align:left; }
+
+
 .yuenrel-icon { font-size:0px;line-height:0px; }
 .yuenrel-icon div { height:130px;padding:20px 0px;background:white;mix-blend-mode:screen; }
 .yuenrel-icon div:before,
@@ -95,8 +99,6 @@ width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 
 .yuengroup { --bg:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 100%),var(--accent);
 width:100%;max-width:500px;margin:10px auto;background:var(--bg);box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:16px nunito;line-height:20px;color:#222;text-align:justify; }
 
-.yuengroup-head { padding:15px 20px;padding-bottom:0px;padding-right:110px;font:700 25px syne;line-height:16px;color:#fefefe; }
-
 .yuengroup-icon { display:flex;height:0px;align-items:center;justify-content:flex-end;padding-right:10px; }
 .yuengroup-icon a { text-decoration:none;width:35px;height:35px;margin-right:10px;background:linear-gradient(0deg, rgba(255,255,255,0.5) 0%, white 100%),var(--accent);display:flex;align-items:center;justify-content:center;border-radius:5px; }
 .yuengroup-icon a span { color:var(--accent); }
@@ -135,8 +137,6 @@ width:100%;max-width:500px;margin:10px auto;background:var(--bg);box-shadow:0px 
 
 
 .yuenlist { width:100%;max-width:500px;margin:10px auto;background:linear-gradient(40deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 100%),var(--accent);;box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:16px nunito;line-height:20px;color:#222;text-align:justify; }
-
-.yuenlist-head { padding:15px 20px;padding-bottom:0px;padding-right:110px;font:700 25px syne;line-height:16px;color:#fefefe; }
 
 .yuenlist-box { padding:15px;background:white;display:flex;flex-flow:row wrap; }
 .yuenlist-box a { background:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 100%),var(--accent);color:#fff;padding:5px 8px;margin:5px;border-radius:5px;font-weight:bold;text-decoration:none; }
