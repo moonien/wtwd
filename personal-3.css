@@ -3,9 +3,12 @@
 .yuenrel { --bg:linear-gradient(80deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 100%),linear-gradient(135deg, var(--accent) 10%, var(--other) 100%);
 width:100%;max-width:420px;margin:10px auto;background:var(--bg);box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:16px nunito;color:#222; }
 
-.yuenrel-head { padding:15px 25px;padding-bottom:0px;font:700 25px syne;line-height:16px;color:#fefefe;text-align:left; }
+.yuenrel-head,
 .yuengroup-head,
-.yuenlist-head { padding:15px 20px;padding-bottom:0px;padding-right:110px;font:700 25px syne;line-height:16px;color:#fefefe;text-align:left; }
+.yuenlist-head { font:700 25px syne;line-height:16px;color:#fefefe;text-align:left; }
+.yuenrel-head { padding:15px 25px;padding-bottom:0px; }
+.yuengroup-head { padding:15px 20px;padding-bottom:0px;padding-right:110px; }
+.yuenlist-head { padding:15px 20px;padding-bottom:0px; }
 
 
 .yuenrel-icon { font-size:0px;line-height:0px; }
