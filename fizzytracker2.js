@@ -84,13 +84,13 @@ console.log("tracker num ", trackernum)
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
     }
     if (!params.archiveForumNames) {
-        params.archiveForumNames = ["completed", "season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10", "season 11", "season 12"];
+        params.archiveForumNames = ["year 1", "year 2", "year 3", "year 4", "year 5", "completed", "season 1", "season 2", "season 3", "season 4", "season 5", "season 6", "season 7", "season 8", "season 9", "season 10", "season 11", "season 12", "season 13", "season 14", "season 15", "season 16", "season 17", "season 18", "season 19", "season 20"];
     }
     if (!params.altForumNames) {
-        params.altForumNames = ["cellphones"];
+        params.altForumNames = ["cellphones", "online networks", "telepathic links", "communications"];
     }
     if (!params.ignoreForumNames) {
-        params.ignoreForumNames = ["math", "the bulletin", "clubs", "events", "subplots", "the utilities", "templates", "processing", "incomplete", "claims", "abstruse", "witch", "shifter", "werewolf", "fae", "merfolk", "vampire", "spirit", "mythical", "faculty", "townsfolk", "platonic", "family", "romance", "groups", "mixed", "ayo", "castle", "emily", "exodin", "ina", "io", "j", "joei", "nyorobon", "kismyth", "lili", "manda", "mina", "molly", "moth", "silv", "tolvagary", "turtle", "yuen", "mish", "old stuff", "dev challenges", "the darkest timeline", "eykta", "crystal", "time lapse", "online networks", "subgroups", "applications", "misc", "the archives", "year 1", "year 2", "year 3", "previous events", "6 months!", "general", "wonderland"];
+        params.ignoreForumNames = ["relationships", "completed", "math", "the bulletin", "clubs", "events", "subplots", "the utilities", "templates", "processing", "incomplete", "claims", "abstruse", "witch", "shifter", "werewolf", "fae", "merfolk", "vampire", "spirit", "mythical", "faculty", "townsfolk", "platonic", "family", "romance", "groups", "mixed", "ayo", "castle", "emily", "exodin", "ina", "io", "j", "joei", "nyorobon", "kismyth", "lili", "manda", "mina", "molly", "moth", "silv", "shadow", "tecri", "tolvagary", "turtle", "yuen", "mish", "old stuff", "dev challenges", "the darkest timeline", "eykta", "crystal", "time lapse", "subgroups", "applications", "misc", "the archives", "previous events", "6 months!", "general", "wonderland"];
     }
     if (!params.floodControl) {
         params.floodControl = 10;
