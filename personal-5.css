@@ -27,7 +27,7 @@
 
 
 .yuentracker03-2-top { width:100%;display:flex;flex-flow:row wrap;justify-content:flex-end;margin-bottom:0px;font-size:0px;color:#fafafa; }
-.yuentracker03-2-top naps { margin-left:10px;margin-top:calc(0px - (60px + 75px));display:inline-block;background:rgba(var(--rgb),0.5);height:calc(75px + 25px);width:calc(75px + 5px);text-align:left;border-radius:8px 8px 0px 0px; }
+.yuentracker03-2-top naps { margin-left:10px;margin-top:calc(0px - (60px + 75px));display:inline-block;background:rgba(var(--rgb),0.5);height:calc(75px + 5px);width:calc(75px + 5px);text-align:left;border-radius:8px 8px 0px 0px; }
 .yuentracker03-2-top naps:nth-child(3) { background:var(--accent); }
 .yuentracker03-2-top naps i { position:relative;font-style:normal;z-index:2;font-size:40px;line-height:60px;text-align:center;display:block; }
 .yuentracker03-2-top naps font { margin-top:-7px;width:80px;display:block;text-align:center;font-size:12px;font-weight:bold;color:#fafafa;text-transform:uppercase; }
