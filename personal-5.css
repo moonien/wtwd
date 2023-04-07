@@ -2,8 +2,7 @@
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
 
 
-.yuentracker03-2 { --tbg:var(--accent) url(https://live.staticflickr.com/7258/27263552834_d3fc4e6a72_h.jpg) fixed;
-width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:justify;color:#333; }
+.yuentracker03-2 { width:500px;margin:10px auto;font:300 13px nunito;line-height:19px;text-align:justify;color:#333; }
 
 .yuentracker03-2-box { display:flex;flex-flow:row wrap; }
 .yuentracker03-2-cont { order:2;width:calc(100% - 30px);margin:0px auto; }
