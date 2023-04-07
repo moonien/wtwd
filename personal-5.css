@@ -10,7 +10,7 @@
 .yuentracker03-2-cont font { font:900 20px nunito;background:#fafafa;color:var(--accent);display:block;text-align:center;padding:10px;border-top:1px dashed var(--accent); }
 .yuentracker03-2-cont span { display:flex;box-sizing:border-box;align-items:flex-end;justify-content:center;background:var(--accent);text-transform:uppercase;font:900 15px nunito;padding:5px;border-radius:8px;color:#fafafa;margin:0px -15px;border-top:1px dashed #fafafa;border-left:15px solid var(--accent);border-right:15px solid var(--accent); }
 
-.yuentracker03-2-cont div { overflow:hidden;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-start;display:flex;flex-flow:row nowrap;align-items:stretch;font:13px nunito;background:#fafafa;border-top:1px dashed var(--accent); }
+.yuentracker03-2-cont div { box-shadow:0px 0px 5px rgba(0,0,0,0.3);overflow:hidden;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-start;display:flex;flex-flow:row nowrap;align-items:stretch;font:13px nunito;background:#fafafa;border-top:1px dashed var(--accent); }
 .yuentracker03-2-cont div:last-child { border-radius:0px 0px 8px 8px; }
 .yuentracker03-2-cont yt,
 .yuentracker03-2-cont div[class^="ytr"] b,
