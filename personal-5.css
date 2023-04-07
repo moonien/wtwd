@@ -7,8 +7,8 @@
 .yuentracker03-2-box { display:flex;flex-flow:row wrap; }
 .yuentracker03-2-cont { order:2;width:calc(100% - 30px);margin:0px auto; }
 
-.yuentracker03-2-cont font { font:900 20px nunito;background:#fafafa;color:var(--accent);display:block;text-align:center;padding:10px;border-top:1px dashed var(--accent); }
-.yuentracker03-2-cont span { display:flex;box-sizing:border-box;align-items:flex-end;justify-content:center;background:var(--accent);text-transform:uppercase;font:900 15px nunito;padding:5px;border-radius:8px;color:#fafafa;margin:0px -15px;border-top:1px dashed #fafafa;border-left:15px solid var(--accent);border-right:15px solid var(--accent); }
+.yuentracker03-2-cont font { box-shadow:0px 0px 5px rgba(0,0,0,0.3);font:900 20px nunito;background:#fafafa;color:var(--accent);display:block;text-align:center;padding:10px;border-top:1px dashed var(--accent); }
+.yuentracker03-2-cont span { position:relative;z-index:2;display:flex;box-sizing:border-box;align-items:flex-end;justify-content:center;background:var(--accent);text-transform:uppercase;font:900 15px nunito;padding:5px;border-radius:8px;color:#fafafa;margin:0px -15px;border-top:1px dashed #fafafa;border-left:15px solid var(--accent);border-right:15px solid var(--accent); }
 
 .yuentracker03-2-cont div { box-shadow:0px 0px 5px rgba(0,0,0,0.3);overflow:hidden;display:flex;flex-flow:row nowrap;align-items:center;justify-content:flex-start;display:flex;flex-flow:row nowrap;align-items:stretch;font:13px nunito;background:#fafafa;border-top:1px dashed var(--accent); }
 .yuentracker03-2-cont div:last-child { border-radius:0px 0px 8px 8px; }
@@ -34,7 +34,7 @@
 .yuentracker03-2-top naps:before { width:80px;position:absolute;content:var(--yicon);font:40px saturnicons;line-height:60px;z-index:8;opacity:0.3;z-index:9;text-align:center;z-index:1; }
 
 .yuentracker03-2-top .ytd-2-image { width:100%; }
-.yuentracker03-2-top .ytd-2-image span { displaly:block;font:900 30px nunito;line-height:20px;padding:20px;color:#fafafa;display:block;background:var(--accent);text-transform:uppercase;border-radius:8px 0px 8px 8px; }
+.yuentracker03-2-top .ytd-2-image span { position:relative;z-index:2;displaly:block;font:900 30px nunito;line-height:20px;padding:20px;color:#fafafa;display:block;background:var(--accent);text-transform:uppercase;border-radius:8px 0px 8px 8px; }
 .yuentracker03-2-top .ytd-2-image img { width:75px;height:75px;object-fit:cover;padding:10px;background:#fafafa;position:relative;z-index:2;margin:22px 28px;box-shadow:0px 0px 8px rgba(0,0,0,0.2); }
 .yuentracker03-2-top .ytd-2-image:before { content:"\e1a9";font:50px saturnicons;-webkit-text-stroke-width:1px;-webkit-text-fill-color:var(--accent);color:#fafafa;position:absolute;z-index:3;transform:rotateZ(8deg);margin-left:20px; }
 
