@@ -17,11 +17,11 @@
 .yuentracker03-2-cont i,
 .yuentracker03-2-cont s { display:flex;align-items:center;flex-flow:row wrap; }
 .yuentracker03-2-cont yt { margin-left:-25px;position:relative;z-index:2;text-align:left;width:100%;box-sizing:border-box;padding:9px;justify-content:space-between;line-height:15px; }
-.yuentracker03-2-cont yt a { text-decoration:none;font-weight:700;padding-top:0px;padding-bottom:0px;font-size:14px;border-radius:4px;color:var(--accent);padding:2px 5px;background:rgba(250,250,250,0.5); }
+.yuentracker03-2-cont yt a { text-decoration:none;font-weight:700;font-size:14px;border-radius:4px;color:var(--accent);padding:2px 0px;background:rgba(250,250,250,0.5); }
 .yuentracker03-2-cont yt i { font-style:normal;padding:2px 0px; }
 .yuentracker03-2-cont s,
 .yuentracker03-2-cont s:before { content:var(--yicon);font:55px saturnicons;text-shadow:2px 2px 0px #eee; }
-.yuentracker03-2-cont div[class^="ytr"] b { width:35px;padding-left:10px;justify-content:flex-start;order:-1;font-weight:bolder;font-size:18px;color:var(--accent);position:relative;z-index:2; }
+.yuentracker03-2-cont div[class^="ytr"] b { width:40px;padding-left:10px;justify-content:flex-start;order:-1;font-weight:bolder;font-size:18px;color:var(--accent);position:relative;z-index:2; }
 .yuentracker03-2-cont div[class^="ytr"] b:after { content:"/";font-weight:1000;font-size:12px;margin-left:5px; }
 .yuentracker03-2-cont s { width:0px;color:var(--accent);transform:rotateZ(16deg);transform-origin:0% 0%;position:relative;z-index:1;margin:-20px 0px;margin-left:25px;opacity:0.3;padding-top:0px; }
 
