@@ -138,7 +138,7 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .darkgarden-inner { border:1px solid #fcfcfc;padding:20px;border-bottom-width:0px;border-top-width:0px;overflow:hidden; }
 .darkgarden-body { padding:20px;box-shadow:inset 0px 0px 0px 1000px rgba(0,0,0,0.7); }
 .darkgarden-body b { font:700 16px playfair display;line-height:24px; }
-.darkgarden-tag { display:flex;width:100%;overflow:hidden;font-size:12px;text-transform:uppercase;line-height:15px;margin-top:-8px;margin-bottom:-8px;align-items:center; }
+.darkgarden-tag { display:flex;width:100%;overflow:hidden;font-size:12px;text-transform:uppercase;line-height:15px;margin-top:-7px;margin-bottom:-7px;align-items:center; }
 .darkgarden-tag:before { content:"";flex-grow:1;height:0px;border-top:1px solid #fcfcfc;margin-right:5px; }
 .darkgarden-tag:after { content:"";flex-grow:1;height:0px;border-top:1px solid #fcfcfc;margin-left:5px; }
 .darkgarden-tag,
