@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400i|Karla:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700i,700|Quicksand:600|Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Arizonia|Concert+One|Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,900,900i');
 
 div[class*="wtwd"] { --edelweiss:var(--edelHex);--daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex); }
 
@@ -103,3 +104,24 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .rain { text-transform:uppercase;font:24px concert one;padding:20px; color:white;text-transform:uppercase;line-height:22px;background:var(--accent); }
 .rain rd { display:block;font:13px cuprum;text-transform:uppercase;line-height:15px; }
 .drop { float:left;width:140px;height:180px;object-fit:cover;border:8px solid var(--accent);margin:20px;margin-right:0px; }
+
+
+
+
+
+
+
+
+.yuenrequest { width:500px;text-align:justify;box-sizing:border-box;padding:5px;background:var(--gradient);border:15px solid #f8f8f8;margin:30px auto;box-shadow:inset 0px 0px 0px 1000px rgba(248,248,248,0.5),0px 0px 10px -5px rgba(0,0,0,0.3); }
+.yuenrequest-box { background:#f8f8f8;padding:20px;font:13px nunito;line-height:20px;color:#222; }
+
+.yuenrequest-box span,
+.yuenrequest-box b { background:var(--gradient);background-clip:text;-webkit-background-clip:text;color:transparent;opacity:0.7; }
+.yuenrequest-box span { font:italic 900 30px nunito;display:inline-block;margin-bottom:10px; }
+
+.yuenrequest-character { border:4px solid var(--accent);padding:15px;margin-top:30px;background:linear-gradient(180deg, #f8f8f8 10%, var(--accent) 100%);box-shadow:inset 0px 0px 0px 1000px rgba(248,248,248,0.7); }
+.yuenrequest-character span { font-size:20px;text-transform:uppercase;line-height:30px;color:var(--accent);background:#f8f8f8;padding:0px 10px;margin:0px;margin-top:-33px;font-style:normal;margin-left:5px;float:left; }
+.yuenrequest-character span,
+.yuenrequest-character b { opacity:1; }
+.yuenrequest-character b { color:var(--accent); }
+.yuenrequest-character-info { background:var(--accent);float:right;margin:-18px -18px 10px 15px;border-bottom-left-radius:10px;padding:5px 10px;color:#f8f8f8;font:900 11px nunito;text-transform:uppercase; }
