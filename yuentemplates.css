@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arizonia|Concert+One|Cuprum');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Montserrat:700');
 
 div[class*="wtwd"] { --edelweiss:var(--edelHex);--daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex); }
 
@@ -144,3 +145,20 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .darkgarden-tag,
 .darkgarden-tag a { color:white!important;font-family:playfair display;font-weight:bold; }
 .darkgarden-tag b { font-size:15px; }
+
+
+
+
+
+
+
+.moonwanted { background:white;border:1px solid #f2f2f2;box-shadow:3px 4px 0px rgba(0,0,0,0.02);padding:40px;width:350px;text-align:justify;font:13px nunito;line-height:20px;color:#222;margin:40px auto; }
+.moonwanted-title { font:30px roboto mono;line-height:30px;text-align:center; }
+.moonwanted-sub { font:10px roboto mono;line-height:10px;text-align:center; }
+.moonwanted hr { content:"";box-shadow:none;border:none;border-top:1px solid #444;margin:20px 50px; }
+
+.moonwanted-box { margin:10px 0px;display:flex;flex-align:row nowrap; }
+.moonwanted-box-name { writing-mode:vertical-rl;transform:rotate(180deg);height:260px;box-sizing:border-box;display:block;color:white;padding:15px;font:11px roboto mono;text-transform:uppercase;line-height:6px;background:var(--accent); }
+.moonwanted-box-name span,
+.moonwanted-box-name a { display:block;font:700 20px montserrat!important;text-transform:lowercase;line-height:20px!important;margin-left:5px;color:white!important; }
+.moonwanted-box-desc { padding:0px 10px;display:block;height:260px;overflow:auto;background:linear-gradient(120deg,transparent 0%,var(--accent) 150%); }
