@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400i|Karla:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700i,700|Quicksand:600|Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Arizonia|Concert+One|Cuprum');
 
 div[class*="wtwd"] { --edelweiss:var(--edelHex);--daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex); }
 
@@ -89,3 +90,16 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .moonboard font { font:11px karla;line-height:13px;text-transform:uppercase;display:block;margin:0px clamp(20px,7vw,50px);text-align:justify;text-align-last:center; }
 .moonboard font:nth-child(2) { margin-bottom:20px; }
 .moonboard span:nth-last-child(2) { margin-top:20px; }
+
+
+
+
+
+
+
+.skyfall { margin:20px auto;width:450px;overflow:hidden;border-radius:20px;background:#fdfdfd;font:14px karla;line-height:18px;text-align:justify; }
+.weather { font:27px concert one;background:var(--accent);color:white;text-transform:uppercase;line-height:22px;padding:20px 60px; }
+.storm { height:196px;overflow:auto;padding:0px 20px;margin:20px 0px; }
+.rain { text-transform:uppercase;font:24px concert one;padding:20px; color:white;text-transform:uppercase;line-height:22px;background:var(--accent); }
+.rain rd { display:block;font:13px cuprum;text-transform:uppercase;line-height:15px; }
+.drop { float:left;width:140px;height:180px;object-fit:cover;border:8px solid var(--accent);margin:20px;margin-right:0px; }
