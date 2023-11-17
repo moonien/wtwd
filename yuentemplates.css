@@ -162,3 +162,33 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .moonwanted-box-name span,
 .moonwanted-box-name a { display:block;font:700 20px montserrat!important;text-transform:lowercase;line-height:20px!important;margin-left:5px;color:white!important; }
 .moonwanted-box-desc { padding:0px 10px;display:block;height:260px;overflow:auto;background:linear-gradient(120deg,transparent 0%,var(--accent) 150%); }
+
+
+
+
+
+
+
+#azalea, #post-6 { --a:var(--carnaHex);--b:var(--daisyHex);--c:var(--edelHex); }
+#carnation, #post-7 { --a:var(--daisyHex);--b:var(--edelHex);--c:var(--azaHex); }
+#daisy, #post-8 { --a:var(--carnaHex);--b:var(--azaHex);--c:var(--edelHex); }
+#edelweiss, #post-9 { --a:var(--azaHex);--b:var(--carnaHex);--c:var(--daisyHex); }
+
+.mgroup-6 { --accent:var(--azaHex); }
+.mgroup-7 { --accent:var(--carnaHex); }
+.mgroup-8 { --accent:var(--daisyHex); }
+.mgroup-9 { --accent:var(--edelHex); }
+
+.moongazer { width:400px;margin:20px auto; }
+.moongazer-head mg-date { position:absolute;z-index:2;font-size:0px;background:#fcfcfc;margin-left:300px;padding:10px;padding-top:20px;border-radius:0px 0px 10px 10px; }
+.moongazer-head mg-day,
+.moongazer-head mg-mon,
+.moongazer-head mg-yr { font:700 25px ubuntu mono;text-transform:uppercase;line-height:20px; }
+.moongazer-head mg-day { color:var(--a); }
+.moongazer-head mg-mon { color:var(--b); }
+.moongazer-head mg-yr { color:var(--c); }
+.moongazer-head img { position:relative;z-index:1;width:100%;object-fit:cover;min-height:200px;border-radius:15px 15px 0px 0px; }
+.moongazer-post { position:relative;z-index:3;border-radius:15px;padding:20px;background:#fcfcfc;margin:-15px 0px;text-align:justify;font:14px nunito;line-height:22px; }
+.moongazer-post mg-location { display:block;margin-bottom:15px;color:var(--accent);font:700 18px ubuntu mono;text-transform:uppercase;border-bottom:3px solid var(--a);width:max-content;padding-bottom:5px; }
+.moongazer-tag { background:#eee;padding:7px;padding-top:22px;border-radius:0px 0px 15px 15px;text-align:center; }
+.moongazer-tag a { color:var(--accent);text-transform:uppercase;font:700 13px ubuntu mono;display:inline-block;margin:3px; }
