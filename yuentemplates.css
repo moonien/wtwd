@@ -180,10 +180,10 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .mgroup-9 { --accent:var(--edelHex); }
 
 .moongazer { width:400px;margin:20px auto; }
-.moongazer-head mg-date { position:absolute;z-index:2;font-size:0px;background:#fcfcfc;margin-left:300px;padding:10px;padding-top:20px;border-radius:0px 0px 10px 10px; }
+.moongazer-head mg-date { position:absolute;z-index:2;font-size:0px;background:#fcfcfc;margin-left:300px;padding:10px;padding-top:30px;border-radius:0px 0px 10px 10px; }
 .moongazer-head mg-day,
 .moongazer-head mg-mon,
-.moongazer-head mg-yr { font:700 25px ubuntu mono;text-transform:uppercase;line-height:20px; }
+.moongazer-head mg-yr { display:inline-block;font:700 25px ubuntu mono;text-transform:uppercase;line-height:10px!important; }
 .moongazer-head mg-day { color:var(--a); }
 .moongazer-head mg-mon { color:var(--b); }
 .moongazer-head mg-yr { color:var(--c); }
