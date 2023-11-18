@@ -169,15 +169,15 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 
 
 
-#azalea, #post-6 { --a:var(--carnaHex);--b:var(--daisyHex);--c:var(--edelHex); }
-#carnation, #post-7 { --a:var(--daisyHex);--b:var(--edelHex);--c:var(--azaHex); }
-#daisy, #post-9 { --a:var(--carnaHex);--b:var(--azaHex);--c:var(--edelHex); }
-#edelweiss, #post-8 { --a:var(--azaHex);--b:var(--carnaHex);--c:var(--daisyHex); }
+#azalea, #post-6 .moongazer { --a:var(--carnaHex);--b:var(--daisyHex);--c:var(--edelHex); }
+#carnation, #post-7 .moongazer { --a:var(--daisyHex);--b:var(--edelHex);--c:var(--azaHex); }
+#daisy, #post-9 .moongazer { --a:var(--carnaHex);--b:var(--azaHex);--c:var(--edelHex); }
+#edelweiss, #post-8 .moongazer { --a:var(--azaHex);--b:var(--carnaHex);--c:var(--daisyHex); }
 
-.mgroup-6 { --accent:var(--azaHex); }
-.mgroup-7 { --accent:var(--carnaHex); }
-.mgroup-9 { --accent:var(--daisyHex); }
-.mgroup-8 { --accent:var(--edelHex); }
+.moongazer .mgroup-6 { --accent:var(--azaHex); }
+.moongazer .mgroup-7 { --accent:var(--carnaHex); }
+.moongazer .mgroup-9 { --accent:var(--daisyHex); }
+.moongazer .mgroup-8 { --accent:var(--edelHex); }
 
 .moongazer { width:400px;margin:20px auto; }
 .moongazer-head mg-date { position:absolute;z-index:2;font-size:0px;background:#fcfcfc;margin-left:300px;padding:10px;padding-top:30px;border-radius:0px 0px 10px 10px; }
