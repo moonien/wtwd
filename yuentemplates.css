@@ -229,3 +229,19 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .observatoryuen-list b:first-child { margin-top:0px; }
 .observatoryuen-list a { color:var(--accent);text-decoration:none; }
 .observatoryuen-list li { list-style:inside; }
+
+
+
+
+
+
+
+.aquamarin { margin:50px auto;width:500px;height:500px; }
+.aquamarin-left { width:245px;height:500px;float:left; }
+.aquamarin-left img { filter:grayscale(100%) brightness(80%) contrast(120%);width:100%;height:100%;object-fit:cover;position:relative;z-index:1; }
+.aquamarin-left:before { content:"";display:block;height:500px;width:245px;background:var(--accent);position:absolute;z-index:2;mix-blend-mode:multiply;filter:contrast(120%); }
+.aquamarin-top,
+.aquamarin-bottom { width:245px;height:245px;float:right; }
+.aquamarin-top { padding:10px;box-sizing:border-box;margin-bottom:10px;display:flex;flex-flow:column nowrap;color:#fff;text-align:right;text-transform:uppercase;align-items:flex-start;justify-content:flex-end;font:900 32px nunito;text-shadow:2px 2px 0px var(--accent),-1px -1px 0px var(--accent),1px -1px 0px var(--accent),1px 1px 0px var(--accent),-1px 1px 0px var(--accent);line-height:35px; }
+.aquamarin-top sub { padding:0px;margin:0px;height:auto;width:auto;display:inline;font-size:20px;line-height:20px; }
+.aquamarin-bottom img { width:100%;height:100%;object-fit:cover;filter:grayscale(100%) brightness(50%) contrast(120%); }
