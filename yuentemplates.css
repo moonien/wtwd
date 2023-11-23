@@ -257,10 +257,10 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 
 
 
-.skyuen { width:100%;max-width:500px;margin:30px auto;box-sizing:border-box;padding:40px;background:#f8f8f8;border-bottom:7px solid var(--accent);counter-reset:goals; }
+.skyuen { width:100%;max-width:500px;margin:30px auto;box-sizing:border-box;padding:40px;background:#f8f8f8;border-bottom:7px solid var(--accent); }
 .skyuen b { font:900 28px nunito;color:var(--accent);display:block;text-transform:uppercase;margin-bottom:10px; }
 .skyuen b:after { content:"ALREADY " counter(goals) " DONE";font-size:15px;display:block;line-height:20px;  }
-.skyuen-goal { display:flex;flex-flow:column-reverse nowrap; }
+.skyuen-goal { display:flex;flex-flow:column-reverse nowrap;counter-reset:goals; }
 .skyuen-bar { border:1px solid var(--accent);padding:1px;height:20px;margin-top:15px;font-size:0px; }
 .skyuen-bar a[href*="showtopic"],
 .skyuen-bar a[href*="ST"] { counter-increment:goals;display:inline-block;background:var(--accent);height:20px;width:calc(100% / var(--goal)); }
