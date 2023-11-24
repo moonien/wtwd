@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Montserrat:700');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
 div[class*="wtwd"] { --edelweiss:var(--edelHex);--daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex); }
 
@@ -265,3 +266,25 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .skyuen-bar a { font-size:0px!important;display:inline-block;height:20px; }
 .skyuen-bar a[href*="showtopic"],
 .skyuen-bar a[href*="ST"] { counter-increment:goals;background:var(--accent);width:calc(100% / var(--goal)); }
+
+
+
+
+
+
+
+
+
+.seasonallyuen { width:350px;margin:50px auto;box-sizing:border-fox;background:#fafafa;outline:15px solid #fafafa;border:3px solid var(--accent);padding:25px;text-align:justify;font:15px nunito;line-height:20px; }
+.seasonallyuen .material-symbols-rounded { position:absolute;color:var(--accent);font-size:35px;width:35px;height:35px;padding-right:5px;padding-bottom:5px;background:#fafafa;margin-top:-35px;margin-left:-35px;border-radius:0px 0px 100px 0px; }
+.seasonallyuen a[class*="mgroup"] { text-transform:uppercase;font-size:12px;font-weight:bold;color:var(--accent); }
+
+headline { display:block;text-align:center;color:var(--accent);font:900 15px nunito; }
+headline:first-line { display:block;font-size:20px; }
+
+.seasonallyuen hr { box-shadow:none;border:none;border-top:3px solid var(--accent);margin:5px 150px; }
+
+.seasonallyuen .mgroup-6 { --accent:var(--azaHex); }
+.seasonallyuen .mgroup-7 { --accent:var(--carnaHex); }
+.seasonallyuen .mgroup-9 { --accent:var(--daisyHex); }
+.seasonallyuen .mgroup-8 { --accent:var(--edelHex); }
