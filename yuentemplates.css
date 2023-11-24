@@ -263,4 +263,4 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 .skyuen-goal { display:flex;flex-flow:column-reverse nowrap;counter-reset:goals; }
 .skyuen-bar { border:1px solid var(--accent);padding:1px;height:20px;margin-top:15px;font-size:0px!important; }
 .skyuen-bar a[href*="showtopic"],
-.skyuen-bar a[href*="ST"] { counter-increment:goals;display:inline-block;background:var(--accent);height:20px;width:calc(100% / var(--goal)); }
+.skyuen-bar a[href*="ST"] { counter-increment:goals;display:inline-block;background:var(--accent);height:20px;width:calc(100% / var(--goal));font-size:0px!important; }
