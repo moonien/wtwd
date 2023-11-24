@@ -5,8 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Montserrat:700');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://icons.cappuccicons.com/cpf.css');
+
 
 div[class*="wtwd"] { --edelweiss:var(--edelHex);--daisy:var(--daisyHex);--carnation:var(--carnaHex);--azalea:var(--azaHex); }
+
 
 .yuenwtwd { 
 width:300px;box-sizing:border-box;background:#fff;margin:30px auto;text-align:justify;font:13px karla;line-height:17px;box-shadow:0px 0px 5px var(--accent);border-radius:10px;display:flex;flex-flow:row wrap;align-items:flex-start;align-content:flex-start;justify-content:flex-end;overflow:hidden; }
@@ -288,3 +291,41 @@ headline:first-line { display:block;font-size:20px; }
 .seasonallyuen .mgroup-7 { --accent:var(--carnaHex); }
 .seasonallyuen .mgroup-9 { --accent:var(--daisyHex); }
 .seasonallyuen .mgroup-8 { --accent:var(--edelHex); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.merryuen { width:500px;margin:20px auto;border-bottom:8px solid var(--accent);background:#fafafa;font:15px nunito;line-height:20px;color:#555;overflow:hidden; }
+
+.merryuen-head { position:relative;z-index:2;display:flex;flex-flow:row nowrap;padding-left:30px;border-bottom:5px solid var(--accent);background:var(--accent);box-shadow:inset 0px 0px 0px 10000px rgba(255,255,255,0.5); }
+.merryuen-head img { opacity:1;clip-path:polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);border-bottom:5px solid var(--accent);width:120px;height:120px;object-fit:cover;margin-right:-31px;margin-bottom:-5px; }
+
+.merryuen-left { position:sticky;top:40px;width:100px;height:520px;background:#e2e2e2;float:left;text-align:right;box-sizing:border-box;padding:20px 0px; }
+.merryuen-left a { display:block;text-decoration:none;font:900 15px nunito;line-height:15px;color:#fafafa;background:var(--accent);width:max-content;margin-left:auto;margin-bottom:10px;padding:8px 5px;padding-right:20px; }
+.merryuen-left a:before { content:"";display:block;float:left;height:30px;width:15px;clip-path:polygon(100% 0, 0 50%, 100% 100%);margin-left:-20px;margin-top:-8px;background:var(--accent); }
+
+.merryuen-right { scroll-behavior:smooth;position:relative;z-index:1;box-shadow:0px 0px 5px rgba(0,0,0,0.5);width:380px;height:480px;overflow-y:auto;overflow-x:hidden;padding:0px 10px;border-top:20px solid transparent;border-bottom:20px solid transparent; }
+.merryuen-right my-year,
+.merryuen-right my-month { display:block;font:900 25px nunito;line-height:30px;color:#fafafa;background:var(--accent);width:max-content;padding:5px;padding-left:30px;margin-bottom:10px;margin-left:-20px;text-transform:uppercase; }
+.merryuen-right my-year:before,
+.merryuen-right my-month:before { content:"";display:block;float:right;height:40px;width:20px;clip-path:polygon(0 0, 0% 100%, 100% 50%);margin-right:-25px;margin-top:-5px;background:var(--accent); }
+.merryuen-right my-month { font:900 17px nunito;line-height:20px; }
+.merryuen-right my-month:before { height:30px;width:15px;clip-path:polygon(0 0, 0% 100%, 100% 50%);margin-right:-20px;margin-top:-5px;background:var(--accent); }
+.merryuen-thread { margin:15px 0px;display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid #ddd;padding:0px 5px;padding-bottom:10px;margin-bottom:10px; }
+.merryuen-thread font { display:block;width:100%; }
+.merryuen-thread a { text-decoration:none;font:700 18px nunito;line-height:20px;color:var(--accent); }
+.merryuen-thread:before { content:var(--myicon);font:20px cappuccicons;height:40px;width:40px;flex-shrink:0;background:var(--accent);clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding-top:3px;color:#fafafa;margin-right:10px; }
+.merryuen-thread span { display:block; }
+
+.merryuen .my-ongoing { --myicon:"\eb04"; }
+.merryuen .my-complete { --myicon:"\eb03"; }
+.merryuen .my-inactive { --myicon:"\e992"; }
