@@ -179,13 +179,17 @@ width:100%;max-width:450px;margin:30px auto;font:13px roboto;line-height:18px;te
 #edelweiss, #post-8 .moongazer { --a:var(--azaHex);--b:var(--carnaHex);--c:var(--daisyHex); }
 
 .moongazer .mgroup-6,
-.yuenien .mgroup-6 { --accent:var(--azaHex); }
+.yuenien .mgroup-6,
+.thinkthattalk .mgroup-6 { --accent:var(--azaHex); }
 .moongazer .mgroup-7,
-.yuenien .mgroup-7 { --accent:var(--carnaHex); }
+.yuenien .mgroup-7,
+.thinkthattalk .mgroup-7 { --accent:var(--carnaHex); }
 .moongazer .mgroup-9,
-.yuenien .mgroup-9 { --accent:var(--daisyHex); }
+.yuenien .mgroup-9,
+.thinkthattalk .mgroup-9 { --accent:var(--daisyHex); }
 .moongazer .mgroup-8,
-.yuenien .mgroup-8 { --accent:var(--edelHex); }
+.yuenien .mgroup-8,
+.thinkthattalk .mgroup-8 { --accent:var(--edelHex); }
 
 .moongazer { width:400px;margin:20px auto; }
 .moongazer-head mg-date { position:absolute;z-index:2;font-size:0px;background:#fcfcfc;margin-left:300px;padding:10px;padding-top:30px;border-radius:0px 0px 10px 10px; }
@@ -367,3 +371,20 @@ headline:first-line { display:block;font-size:20px; }
 .callcallcall-head a { margin-left:130px;display:block;font:900 14px nunito;text-transform:uppercase; }
 .callcallcall-call { padding:20px;margin-top:15px;margin-left:40px;background:rgba(255,255,255,0.5);border-radius:15px;text-align:justify;line-height:25px; }
 .callcallcall-call b { color:var(--accent);font-size:17px;line-height:25px; }
+
+
+
+
+
+
+
+
+.thinkthattalk { width:400px;margin:30px auto;font:15px nunito;line-height:20px;display:flex; }
+.thinkthattalk-head { margin-right:20px;display:flex;flex-flow:column nowrap;align-items:center;justify-content:center; }
+.thinkthattalk-head img { border-radius:100px;height:70px;width:70px;object-fit:cover; }
+.thinkthattalk-head b { writing-mode:vertical-rl;transform:rotateZ(180deg);text-align:center;margin:10px;font:900 12px nunito;text-transform:uppercase; }
+.thinkthattalk-head a { display:block;color:var(--accent)!important; }
+.thinkthattalk-post { width:300px;display:flex;flex-flow:column nowrap;align-items:flex-start;margin-top:10px; }
+.thinkthattalk-post p { flex-grow:0;background:#fafafa;width:auto;margin:0px;margin-top:7px;padding:10px;border-radius:3px; }
+.thinkthattalk-post p:first-child { border-radius:3px 10px 3px 3px; }
+.thinkthattalk-post p:last-child { border-radius:3px 3px 10px 10px; }
