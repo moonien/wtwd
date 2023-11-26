@@ -352,3 +352,18 @@ headline:first-line { display:block;font-size:20px; }
 .everythingsinit p { flex-grow:0;background:var(--accent);color:#fafafa;border-radius:7px;border-bottom-left-radius:2px;padding:8px;margin:5px 0px; }
 .everythingsinit-foot { text-align:center;background:var(--accent);color:#fafafa;font-size:15px;font-weight:900;line-height:20px;padding:10px;text-transform:uppercase; }
 .everythingsinit-foot a { font:inherit!important;color:inherit!important; }
+
+
+
+
+
+
+
+
+.callcallcall { width:400px;margin:30px auto;font:15px nunito;line-height:20px;color:#333; }
+.callcallcall-head b { color:#999;display:flex;align-items:center;font:900 20px nunito;text-transform:uppercase; }
+.callcallcall-head b .material-icons { margin-right:5px;font-size:30px; }
+.callcallcall-head img { float:left;height:80px;width:80px;object-fit:cover;border-radius:100px;margin-right:15px; }
+.callcallcall-head a { margin-left:35px;display:block;font:900 14px nunito;text-transform:uppercase; }
+.callcallcall-call { padding:20px;margin-top:15px;margin-left:40px;background:rgba(255,255,255,0.5);border-radius:15px;text-align:justify;line-height:25px; }
+.callcallcall-call b { color:var(--accent);font-size:17px;line-height:25px; }
