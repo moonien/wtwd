@@ -364,6 +364,6 @@ headline:first-line { display:block;font-size:20px; }
 .callcallcall-head b { color:#999;display:flex;align-items:center;font:900 20px nunito;text-transform:uppercase; }
 .callcallcall-head b .material-icons { margin-right:5px;font-size:30px; }
 .callcallcall-head img { float:left;height:80px;width:80px;object-fit:cover;border-radius:100px;margin-right:15px; }
-.callcallcall-head a { margin-left:35px;display:block;font:900 14px nunito;text-transform:uppercase; }
+.callcallcall-head a { margin-left:130px;display:block;font:900 14px nunito;text-transform:uppercase; }
 .callcallcall-call { padding:20px;margin-top:15px;margin-left:40px;background:rgba(255,255,255,0.5);border-radius:15px;text-align:justify;line-height:25px; }
 .callcallcall-call b { color:var(--accent);font-size:17px;line-height:25px; }
