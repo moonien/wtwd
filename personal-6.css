@@ -107,9 +107,9 @@ display:flex;flex-flow:row wrap;align-items:flex-start;align-content:flex-start;
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i,900');
 
-.yuentemplate03-2 { width:100%;max-width:500px;margin:20px auto;font:15px nunito;border-radius:15px;background:var(--white-hex);overflow:hidden;box-shadow:0px 0px 0px 1px var(--temp-mg-color);
+.yuentemplate03-2 { width:100%;max-width:500px;margin:20px auto;font:15px nunito;border-radius:15px;background:#fafafa;color:#222;overflow:hidden;box-shadow:0px 0px 0px 1px var(--accent);
                   --gap100:clamp(15px,2vw,25px);--gap50:clamp(8px,1vw,12px); }
-.yuentemplate03-2-head { padding:var(--gap100);display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid var(--temp-mg-color); }
+.yuentemplate03-2-head { padding:var(--gap100);display:flex;flex-flow:row nowrap;align-items:center;border-bottom:1px solid var(----accent); }
 .yuentemplate03-2-head:last-child { border:none; }
 .yuentemplate03-2-head img { width:60px;height:60px;object-fit:cover;border-radius:5px;margin-right:var(--gap50); }
 .yuentemplate03-2-head span a { display:block;width:max-content;max-width:90vw;font:900 180% nunito;line-height:29px;margin-bottom:2px; }
@@ -117,14 +117,14 @@ display:flex;flex-flow:row wrap;align-items:flex-start;align-content:flex-start;
 .yuentemplate03-2-body { text-align:justify;padding:var(--gap100); }
 .yuentemplate03-2 a,
 .yuentemplate03-2 b,
-.yuentemplate03-2 i { background: radial-gradient(circle at 60% bottom, var(--temp-mg-color-2), var(--temp-mg-color) 75%);-webkit-background-clip:text;color:transparent; }
+.yuentemplate03-2 i { color:var(--accent); }
 .yuentemplate03-2 b { font-weight:900;filter:none; }
 
 
-.yuentemplate03-2-head i { width:60px;height:60px;-webkit-background-clip:padding-box;border-radius:5px;color:var(--white-hex)!important;display:flex;align-items:center;justify-content:center;font-size:30px;margin-right:clamp(8px,1vw,12px) }
+.yuentemplate03-2-head i { width:60px;height:60px;-webkit-background-clip:padding-box;border-radius:5px;color:#fafafa!important;display:flex;align-items:center;justify-content:center;font-size:30px;margin-right:clamp(8px,1vw,12px) }
 
 
 
-.yuentemplate03-2-tags { padding:var(--gap50) var(--gap100);border-top:1px solid var(--temp-mg-color);display:flex;width:100%;box-sizing:border-box;justify-content:center; }
-.yuentemplate03-2-tags b { letter-spacing:0px;font-weight:700!important;background-image:none!important;background-color:#aaa!important;font-size:85%;text-transform:uppercase;margin:3px; }
+.yuentemplate03-2-tags { padding:var(--gap50) var(--gap100);border-top:1px solid var(--accent);display:flex;width:100%;box-sizing:border-box;justify-content:center; }
+.yuentemplate03-2-tags b { letter-spacing:0px;font-weight:700!important;color:#aaa!important;font-size:85%;text-transform:uppercase;margin:3px; }
 .yuentemplate03-2-tags b:before { content:"#";padding-right:1px; }
